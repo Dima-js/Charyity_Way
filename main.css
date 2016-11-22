@@ -1,0 +1,221 @@
+html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1; /* ie 6/7 */
+}
+@font-face {
+    font-family: Katona2; /* Имя шрифта */
+    src: url(font/Katona%20II.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: PTSans Narrow; /* Имя шрифта */
+    src: url(font/PTSans%20Narrow.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: MinionPro-Regular; /* Имя шрифта */
+    src: url(font/MinionPro-Regular.otf); /* Путь к файлу со шрифтом */
+}
+.header{
+    width: 100%;
+    background-image: url("img/header_bg.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+.wrap_header{
+    width: 1070px;
+    margin: 0 auto;
+}
+.header:after{
+    content: url("img/bg-1.png");
+    bottom: -122px;
+    position: absolute;
+    left: 85px;
+}
+.logo{
+    display: block;
+    margin-top: 15px;
+}
+.wrap_caption_header{
+   text-align: center;
+    margin: 0px 100px 20px 135px;
+    position: relative;
+}
+.caption_text1{
+    font-family: Katona2;
+    font-size: 60px;
+    color: #fff;
+}
+.caption_text2{
+    font-family: Arial;
+    font-size: 36px;
+    color: #fff;
+}
+.wrap_caption_header:before{
+    content: url("img/пустишка.png");
+   position: absolute;
+    right: -30px;
+    -webkit-transform: rotate(-15deg);
+}
+.wrap_caption_header:after{
+    content: url("img/зірки.png");
+    position: absolute;
+    left: -85px;
+    bottom: -65px;
+}
+.wrap_help{
+    background: url("img/border1.png");
+    background-repeat: no-repeat;
+    width: 360px;
+    float: right;
+    text-align: center;
+    position: relative;
+    margin-right: 118px;
+    margin-top: 55px;
+   padding-bottom: 25px;
+}
+.help_text1{
+   margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-family: Tahoma;
+    color: #07263d;
+}
+.help_text2{
+    font-size: 24px;
+    font-family: Tahoma;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #07263d;
+}
+.btn{
+    height: 55px;
+    width: 240px;
+    border-radius: 30px;
+    background-color: #ffd65e; background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd65e), to(#febf04));
+    background-image: -webkit-linear-gradient(top, #ffd65e, #febf04);
+    background-image: -moz-linear-gradient(top, #ffd65e, #febf04);
+    background-image: -ms-linear-gradient(top, #ffd65e, #febf04);
+    background-image: -o-linear-gradient(top, #ffd65e, #febf04);
+    background-image: linear-gradient(to bottom, #ffd65e, #febf04);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffd65e, endColorstr=#febf04);
+    font-size: 24px;
+    text-decoration: none;
+    color: #07263d;
+    margin: 35px 50px 60px 50px;
+    -webkit-box-shadow: 1px 3px 22px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 3px 22px -2px rgba(0,0,0,0.75);
+    box-shadow: 1px 3px 22px -2px rgba(0,0,0,0.75);
+}
+.wrap_help:before{
+    content: url("img/соска.png");
+    position: absolute;
+    transform: rotate(20deg);
+    bottom: 90px;
+    right: -105px;
+
+}
+.wrap_our_idea{
+    width: 100%;
+    background-color: #ffffff;
+}
+.caption_idea{
+    font-size: 24px;
+    font-family: Tahoma;
+    color: #07263d;
+    text-transform: uppercase;
+    margin-top: 65px;
+    margin-right: 105px;
+    position: relative;
+    display: block;
+    text-align: right;
+}
+.caption_idea:before{
+    content: url("img/сердечка.png");
+    position: absolute;
+    right: -70px;
+    bottom: 0;
+}
+.wrap_idea_text{
+    display: inline-block;
+    margin-top: 55px;
+    width: 670px;
+    float: right;
+}
+.text_idea{
+    font-family: "PTSans Narrow";
+    font-size: 18px;
+    color: #0f4d7c;
+    margin-bottom: 30px;
+}
+.border{
+    background-image: url("img/border2.png");
+    width: 269px;
+    height: 208px;
+    float: right;
+    margin: 55px 50px 15px 50px;
+    position: relative;
+}
+.border:before{
+    content: url("img/line1.png");
+    top: -55px;
+    left: -30px;
+    position: absolute;
+}
+.border:after{
+    content: url("img/конфета.png");
+    position: absolute;
+    bottom: -71px;
+    left: -150px;
+}
+.tovaru{
+    width: 100%;
+    background-image: url("img/bg_tovar1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+.caption_tovar{
+    text-align: center;
+    font-family: Katona2;
+    font-size: 60px;
+}
+.wrapper_tovar{
+    display: inline-block;
+    width: 320px;
+}
+.img_tovar img{
+    height: 280px;
+    margin: 0px 80px 0px 80px;
+}
+.img_tovar{
+    position: relative;
+}
+.title_tovar{
+    font-family: MinionPro-Regular;
+    font-size: 18px;
+    color: #07263d;
+    text-align: center;
+    text-transform: uppercase;
+}
+.price{
+    background-image:url("img/Многоугольник-1.png") ;
+    background-repeat: no-repeat;
+}
+
