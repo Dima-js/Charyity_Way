@@ -24,6 +24,10 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     src: url(font/Katona%20II.ttf); /* Путь к файлу со шрифтом */
 }
 @font-face {
+    font-family:Northern_Lights; /* Имя шрифта */
+    src: url(font/Northern_Lights.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
     font-family: NorthernLights-Script; /* Имя шрифта */
     src: url(font/NorthernLights-Script.ttf); /* Путь к файлу со шрифтом */
 }
@@ -138,12 +142,14 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 .wrap_our_idea{
     width: 100%;
     background-color: #ffffff;
+    position: relative;
 
 }
 .wrap_our_idea:after{
     content: url("img/конфета.png");
-    bottom: 10px;
-    left: 10px;
+    bottom: -35px;
+    left: 75px;
+    position: absolute;
 
 }
 .caption_idea{
@@ -200,7 +206,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     background-image: url("img/bg_tovar1.png");
     background-repeat: no-repeat;
     background-size: cover;
-
+    position: relative;
 }
 
 .caption_tovar{
@@ -225,10 +231,9 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 }
 .img_tovar img{
     height: 280px;
-    margin: 0px 80px 0px 80px;
+    margin: 60px 80px 0px 80px;
 }
 .img_tovar{
-    position: absolute;
     top: 65px;
 }
 .title_tovar{
@@ -237,7 +242,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     color: #07263d;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 365px;
+
 }
 .price{
     height: 98px;
@@ -279,6 +284,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     background-color: #fff;
 }
 .work_caption{
+    margin-top: 45px;
     font-family: Katona2;
     font-size: 60px;
     color: #07263d;
@@ -286,6 +292,90 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 }
 #bt{
     margin-bottom: 120px;
+    margin-top: 71px;
+}
+.block_work{
+    float: left;
+    width: 25%;
+}
+.work_text1{
+    text-align: center;
+    font-family: Northern_Lights;
+    font-size: 100px;
+    color: #07263d;
+    text-transform: uppercase;
+}
+.work_text2{
+    text-align: center;
+    font-family: Katona2;
+    font-size: 36px;
+    color: #07263d;
+    text-transform: uppercase;
+}
+.wrap_block_work{
+    margin: 65px 70px 115px 70px;
+    position: relative;
+
+}
+.wrap_block_work:before{
+    content: url("img/зірки2.png");
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+.wrap_block_work:after{
+    content: url("img/конфета-3.png");
+    bottom: 10px;
+    right: 10px;
+    position: absolute;
+}
+.wrap_partner{
+    background-image: url("img/partner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caption_partner{
+    text-align: center;
+    font-size: 60px;
+    font-family: Katona2;
+    color: #07263d;
+    margin-top: 75px;
 }
 
+.wrap_map{
+    width: 100%;
 
+}
+.block_partner{
+    float: left;
+    width: 25%;
+}
+.text_partner1{
+    font-family:Northern_Lights ;
+    font-size: 30px;
+    color: #07263d;
+    margin-bottom: 35px;
+}
+.wrap_pr img,.text_partner2{
+   float: left;
+}
+.text_partner2{
+    font-family: Arial;
+    font-size: 30px;
+    color:#07263d ;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.block_partner p:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.text_partner1:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+.wrapper_partner{
+    margin: 90px 30px 100px 30px;
+}
