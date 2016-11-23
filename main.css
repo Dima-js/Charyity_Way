@@ -39,20 +39,25 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     font-family: MinionPro-Regular; /* Имя шрифта */
     src: url(font/MinionPro-Regular.otf); /* Путь к файлу со шрифтом */
 }
+@font-face {
+    font-family:Lifehack; /* Имя шрифта */
+    src: url(font/DearType%20-%20Lifehack.otf); /* Путь к файлу со шрифтом */
+}
 .header{
-    width: 100%;
     background-image: url("img/header_bg.png");
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
     position: relative;
+    min-width: 1080px;
+    max-width: 1920px;
 }
 .wrap_header{
     width: 1080px;
     margin: 0 auto;
 }
 .header:after{
-    content: url("img/bg-1.png");
+    content: url("img/bg-v2.png");
     bottom: -122px;
     position: absolute;
     left: 85px;
@@ -72,7 +77,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     color: #fff;
 }
 .caption_text2{
-    font-family: Arial;
+    font-family: Lifehack;
     font-size: 36px;
     color: #fff;
 }
@@ -103,12 +108,12 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
    margin-top: 25px;
     margin-bottom: 25px;
     font-size: 24px;
-    font-family: Tahoma;
+    font-family: Lifehack;
     color: #07263d;
 }
 .help_text2{
     font-size: 24px;
-    font-family: Tahoma;
+    font-family: Lifehack;
     margin-right: 20px;
     margin-left: 20px;
     color: #07263d;
@@ -125,8 +130,9 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     background-image: linear-gradient(to bottom, #ffd65e, #febf04);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffd65e, endColorstr=#febf04);
     font-size: 24px;
     text-decoration: none;
+    font-family: Lifehack;
     color: #07263d;
-    margin: 35px 50px 60px 50px;
+    margin: 15px 50px 60px 50px;
     -webkit-box-shadow: 1px 3px 22px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 3px 22px -2px rgba(0,0,0,0.75);
     box-shadow: 1px 3px 22px -2px rgba(0,0,0,0.75);
@@ -142,16 +148,16 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 .wrap_our_idea{
     width: 100%;
     background-color: #ffffff;
-    position: relative;
+    /*position: relative;*/
 
 }
-.wrap_our_idea:after{
-    content: url("img/конфета.png");
-    bottom: -35px;
-    left: 75px;
-    position: absolute;
+/*.wrap_our_idea:after{*/
+    /*content: url("img/конфета.png");*/
+    /*bottom: -35px;*/
+    /*left: 75px;*/
+    /*position: absolute;*/
 
-}
+/*}*/
 .caption_idea{
     font-size: 24px;
     font-family: Tahoma;
@@ -195,18 +201,20 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     left: -30px;
     position: absolute;
 }
-/*.border:after{*/
-    /*content: url("img/конфета.png");*/
-    /*position: absolute;*/
-    /*bottom: -71px;*/
-    /*left: -150px;*/
-/*}*/
+.border:after{
+    content: url("img/конфета.png");
+    position: absolute;
+    bottom: -71px;
+    left: -150px;
+}
 .tovaru{
     width: 100%;
     background-image: url("img/bg_tovar1.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    min-width: 1080px;
+    max-width: 1920px;
 }
 
 .caption_tovar{
@@ -217,7 +225,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 }
 .tovar{
     margin: 30px;
-
+    margin-top: 30px;
 }
 .wrapper_tovar{
     display: inline-block;
@@ -231,17 +239,91 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 }
 .img_tovar img{
     height: 280px;
-    margin: 60px 80px 0px 80px;
+
 }
 .img_tovar{
-    top: 65px;
+    margin: 65px 80px 0px 80px;
+    display: inline-block;
+}
+.wrap_hover_tovar{
+    -webkit-box-shadow: -1px 0px 5px 0px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow:    -1px 0px 5px 0px rgba(50, 50, 50, 0.4);
+    box-shadow:         -1px 0px 5px 0px rgba(50, 50, 50, 0.4);
+    border: 2px solid #eea633;
+    border-radius: 10px;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 100%;
+    height: 730px;
+    background: #fae564;
+    opacity: 0;
+    overflow: hidden;
+    z-index: 2;
+}
+.wrap_hover_tovar:hover{
+    opacity: 1;
+}
+.wrap_opus{
+    margin: 40px 42px 40px 42px;
+}
+.line{
+    position: relative;
+    margin: 20px 0px 20px 0px;
+}
+.line:after {
+    content: '';
+    border-bottom: 2px dotted  #07263d;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 5px;
+}
+
+.left_text_opus{
+    font-family: "PTSans Narrow";
+    font-size: 18px;
+    color: #07263d;
+    background-color: #fae564;
+    padding-right: 5px;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+}
+.right_text_opus{
+    font-family: "PTSans Narrow";
+    font-size: 18px;
+    color: #07263d;
+    background-color: #fae564;
+    padding-left: 5px;
+    float: right;
+    position: relative;
+    z-index: 2;
+}
+.btn_hover_tovar{
+    background-image: url("img/hover_btn.png");
+    height: 67px;
+    width: 252px;
+    display: block;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.btn_hover_tovar span{
+    margin: 5px;
+    font-family: Lifehack;
+    font-size: 24px;
+    color: #07263d;
+    text-align: center;
+    padding-top: 10px;
+    display: block;
 }
 .title_tovar{
-    font-family: MinionPro-Regular;
-    font-size: 18px;
+    font-family: Katona2, MinionPro-Regular;
+    font-size: 30px;
     color: #07263d;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 30px;
 
 }
 .price{
@@ -270,6 +352,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     width: 392px;
     text-decoration:none;
     text-align:center;
+    font-family: Lifehack;
     font-size: 24px;
     padding-top:20px;
     color: #07263d;
@@ -282,6 +365,19 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 .wrap_work{
     width: 100%;
     background-color: #fff;
+    position: relative;
+}
+.wrap_work:before{
+    content: url("img/зірки2.png");
+    top: 130px;
+    left: 165px;
+    position: absolute;
+}
+.wrap_work:after{
+    content: url("img/конфета-3.png");
+    bottom: -50px;
+    right: 90px;
+    position: absolute;
 }
 .work_caption{
     margin-top: 45px;
@@ -297,7 +393,9 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 .block_work{
     float: left;
     width: 25%;
+    position: relative;
 }
+
 .work_text1{
     text-align: center;
     font-family: Northern_Lights;
@@ -314,25 +412,29 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 }
 .wrap_block_work{
     margin: 65px 70px 115px 70px;
-    position: relative;
+    /*position: relative;*/
 
 }
-.wrap_block_work:before{
-    content: url("img/зірки2.png");
-    top: 10px;
-    left: 10px;
-    position: absolute;
-}
-.wrap_block_work:after{
-    content: url("img/конфета-3.png");
-    bottom: 10px;
-    right: 10px;
-    position: absolute;
-}
+
+/*.wrap_block_work:before{*/
+    /*content: url("img/зірки2.png");*/
+    /*top: 10px;*/
+    /*left: 10px;*/
+    /*position: absolute;*/
+/*}*/
+/*.wrap_block_work:after{*/
+    /*content: url("img/конфета-3.png");*/
+    /*bottom: 10px;*/
+    /*right: 10px;*/
+    /*position: absolute;*/
+/*}*/
 .wrap_partner{
     background-image: url("img/partner.png");
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    min-width: 1080px;
+    max-width: 1920px;
 }
 .caption_partner{
     text-align: center;
@@ -342,10 +444,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     margin-top: 75px;
 }
 
-.wrap_map{
-    width: 100%;
 
-}
 .block_partner{
     float: left;
     width: 25%;
@@ -355,6 +454,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     font-size: 30px;
     color: #07263d;
     margin-bottom: 35px;
+    margin-top: 5px;
 }
 .wrap_pr img,.text_partner2{
    float: left;
@@ -377,5 +477,10 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     cursor: pointer;
 }
 .wrapper_partner{
-    margin: 90px 30px 100px 30px;
+    margin: 91px 30px 100px 30px;
+}
+.wrap_map{
+    margin-top: -19px;
+    min-width: 1080px;
+    max-width: 1920px;
 }
