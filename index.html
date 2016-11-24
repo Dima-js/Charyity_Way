@@ -4,6 +4,57 @@
     <meta charset="UTF-8">
     <title>Site</title>
     <link rel="stylesheet" href="main.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script>
+        $(document).ready(function() { // вся магия после загрузки страницы
+            $('a.go').click( function(event){ // ловим клик по ссылки с id="go"
+                event.preventDefault(); // выключаем стандартную роль элемента
+                $('#overlay').fadeIn(400, // сначала плавно показываем темную подложку
+                        function(){ // после выполнения предъидущей анимации
+                            $('#modal_form')
+                                    .css('display', 'block') // убираем у модального окна display: none;
+                                    .animate({opacity: 1, top: '30%'}, 200); // плавно прибавляем прозрачность одновременно со съезжанием вниз
+                        });
+            });
+
+            /* Закрытие модального окна, тут делаем то же самое но в обратном порядке */
+            $('#modal_close, #overlay').click( function(){ // ловим клик по крестику или подложке
+                $('#modal_form')
+                        .animate({opacity: 0, top: '45%'}, 200,  // плавно меняем прозрачность на 0 и одновременно двигаем окно вверх
+                                function(){ // после анимации
+                                    $(this).css('display', 'none'); // делаем ему display: none;
+                                    $('#overlay').fadeOut(400); // скрываем подложку
+                                }
+                        );
+            });
+        });
+
+        $(document).ready(function(){
+            $('.number-min').click(function () {
+                var $input = $(this).closest('.group-input').find('input[type="number"]')
+                console.log($input);
+                var count = parseInt($input.val()) - 1;
+                count = count < 1 ? 1 : count;
+                $input.val(count);
+                $input.change();
+                return false;
+            });
+            $('.number-max').click(function () {
+                var $input = $(this).closest('.group-input').find('input[type="number"]')
+                $input.val(parseInt($input.val()) + 1);
+                $input.change();
+                return false;
+            });
+        });
+        (function($) {
+            $(function() {
+
+                $('input, select').styler();
+
+            });
+        })(jQuery);
+    </script>
 </head>
 <body>
 <header class="header clearfix">
@@ -66,7 +117,7 @@
                     <p class="left_text_opus">Производитель</p>
                     <p class="right_text_opus">Германия</p>
                 </div>
-                <a href="#" class="btn_hover_tovar"><span>Помочь</span></a>
+                <a href="#" class="btn_hover_tovar go"><span>Помочь</span></a>
             </div>
         </div>
 
@@ -99,7 +150,7 @@
                         <p class="left_text_opus">Производитель</p>
                         <p class="right_text_opus">Германия</p>
                     </div>
-                    <a href="#" class="btn_hover_tovar"><span>Помочь</span></a>
+                    <a href="#" class="btn_hover_tovar go"><span>Помочь</span></a>
                 </div>
             </div>
 
@@ -132,7 +183,8 @@
                         <p class="left_text_opus">Производитель</p>
                         <p class="right_text_opus">Германия</p>
                     </div>
-                    <a href="#" class="btn_hover_tovar"><span>Помочь</span></a>
+                    <!--<a href="#"  class="btn_hover_tovar"><span>Помочь</span></a>-->
+                    <a href="#" class="btn_hover_tovar go"><span>Помочь</span></a>
                 </div>
             </div>
 
@@ -158,6 +210,73 @@
     </div>
     </div>
 </div>
+
+<div id="modal_form">
+    <span id="modal_close"><img src="img/close.png"></span>
+    <form action="" method="post">
+        <h3 class="zakaz">Заказ продукции</h3>
+        <p class="name_tovar">Сыворотка для блеска волос 2 в 1 Doctor Schwartz</p>
+        <div class="wraper_zakaz_tovar">
+            <div class="min_tovar clearfix">
+                <div class="min_wrapper_tovar clearfix">
+                    <div class="smal_price"><p>1000 <span><br>грн</span></p></div>
+                    <p class="min_img_tovar"><img src="img/smal_img1.png"></p>
+                    </div>
+                <div class="form_zakaz clearfix">
+                    <form action="#">
+                        <div class="line_zakaz">
+                        <p class="caption1_form">Кількість:</p>
+                        <div class="group-input">
+                            <div class="number-max"></div>
+                            <input type="number" value="1">
+                            <div class="number-min"></div>
+                        </div>
+                            <div class="line_zakaz">
+                                <p class="caption1_form">Способ <br>доставки:</p>
+
+                                <div  class="sposob_dostavku">
+
+                                    <p class="combobox1"><select>
+                                        <option value="1">1</option>
+                                        <option selected value="нова пошта">нова пошта</option>
+                                        <option value="1">1</option>
+                                        <option value="1">1</option>
+                                    </select></p>
+                                    </div>
+                                </div>
+                            <div class="line_zakaz">
+                                <p class="caption1_form">Номер <br>отделения:</p>
+
+                                <div class="sposob_dostavku">
+
+                                    <p class="combobox1"><select>
+                                        <option value="1">1</option>
+                                        <option selected value="12">12</option>
+                                        <option value="1">1</option>
+                                        <option value="1">1</option>
+                                    </select></p>
+
+                                </div>
+                            </div>
+                            <div class="line_zakaz">
+                                <p class="caption1_form">Всего к оплате:</p>
+                                <p class="price_text">2000 <span>грн</span></p>
+                                </div>
+                        </div>
+                        <button class="oplata">оплатить</button>
+                        </form>
+                </div>
+                </div>
+
+        </div>
+        <!--<p style="text-align: center; padding-bottom: 10px;">-->
+           <!--<input class="oplata" type="submit" value="оплатить">-->
+        <!--</p>-->
+    </form>
+</div>
+<div id="overlay"></div>
+
+
 <div class="wrap_work clearfix">
 <div class="wrap_header clearfix">
     <p class="work_caption">вы уже сделали</p>
@@ -218,8 +337,8 @@
     </div>
 </div>
 <div class="wrap_map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1543.1398950473802!2d26.983020814216616!3d49.42324602644821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473206f80b6dc699%3A0xb5980f7f5e3044b5!2z0JrRltC90L7RgtC10LDRgtGAINGW0Lwu0KIuINCTLiDQqNC10LLRh9C10L3QutCwINC8LiDQpdC80LXQu9GM0L3QuNGG0YzQutC40LkgKNCa0LjQvdC-0YLQtdCw0YLRgCDQuNC8LtCiLtCTLtCo0LXQstGH0LXQvdC60L4g0LMuINCl0LzQtdC70YzQvdC40YbQutC40Lkp!5e0!3m2!1sru!2sua!4v1478431035714"
-            width="100%" height="620" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
+    <p class="caption_map">о доставке</p>
+    <img src="img/map.png" class="map">
+  </div>
 </body>
 </html>
