@@ -72,7 +72,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 }
 .wrap_caption_header{
    text-align: center;
-    margin: 0px 100px 20px 135px;
+    margin: -20px 100px 20px 135px;
     position: relative;
 }
 .caption_text1{
@@ -144,6 +144,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     -webkit-box-shadow: 1px 3px 22px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 3px 22px -2px rgba(0,0,0,0.75);
     box-shadow: 1px 3px 22px -2px rgba(0,0,0,0.75);
+    outline: 0;
 }
 .wrap_help:before{
     content: url("img/nipple.png");
@@ -744,6 +745,7 @@ height: 55px;
     font-family:Katona2;
     font-size: 36px;
     color: #07263d;
+    outline: 0;
 }
 .form_zakaz button{
     margin-top: 10px;
