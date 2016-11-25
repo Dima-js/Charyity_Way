@@ -6,79 +6,38 @@
     <link rel="stylesheet" href="main.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script src="js/jquery-3.1.1.min.js"></script>
-    <script>
-        $(document).ready(function() { // вся магия после загрузки страницы
-            $('a.go').click( function(event){ // ловим клик по ссылки с id="go"
-                event.preventDefault(); // выключаем стандартную роль элемента
-                $('#overlay').fadeIn(400, // сначала плавно показываем темную подложку
-                        function(){ // после выполнения предъидущей анимации
-                            $('#modal_form')
-                                    .css('display', 'block') // убираем у модального окна display: none;
-                                    .animate({opacity: 1, top: '30%'}, 200); // плавно прибавляем прозрачность одновременно со съезжанием вниз
-                        });
-            });
-
-            /* Закрытие модального окна, тут делаем то же самое но в обратном порядке */
-            $('#modal_close, #overlay').click( function(){ // ловим клик по крестику или подложке
-                $('#modal_form')
-                        .animate({opacity: 0, top: '45%'}, 200,  // плавно меняем прозрачность на 0 и одновременно двигаем окно вверх
-                                function(){ // после анимации
-                                    $(this).css('display', 'none'); // делаем ему display: none;
-                                    $('#overlay').fadeOut(400); // скрываем подложку
-                                }
-                        );
-            });
-        });
-
-        $(document).ready(function(){
-            $('.number-min').click(function () {
-                var $input = $(this).closest('.group-input').find('input[type="number"]')
-                console.log($input);
-                var count = parseInt($input.val()) - 1;
-                count = count < 1 ? 1 : count;
-                $input.val(count);
-                $input.change();
-                return false;
-            });
-            $('.number-max').click(function () {
-                var $input = $(this).closest('.group-input').find('input[type="number"]')
-                $input.val(parseInt($input.val()) + 1);
-                $input.change();
-                return false;
-            });
-        });
-        (function($) {
-            $(function() {
-
-                $('input, select').styler();
-
-            });
-        })(jQuery);
-    </script>
+    <script src="js/main.js"></script>
 </head>
 <body>
 <header class="header clearfix">
- <div class="wrap_header clearfix">
-     <a href="#" class="logo"><img src="img/logo.png"></a>
-     <div class="wrap_caption_header clearfix">
-         <p class="caption_text1">Купи и подари</p>
-         <p class="caption_text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+    <div class="wrap_header clearfix">
+        <a href="#" class="logo"><img src="img/logo.png"></a>
+        <div class="wrap_caption_header clearfix">
+            <p class="caption_text1">Купи и подари</p>
+            <p class="caption_text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut </p>
 
-     </div>
-<div class="wrap_help">
-<p class="help_text1">Задача</p>
-    <p class="help_text2">Сорбрать 10000 грн на оборудование для дитей</p>
-    <input type="button" class="btn" value="Помочь">
-</div>
- </div>
+        </div>
+        <div class="wrap_help">
+            <p class="help_text1">Задача</p>
+            <p class="help_text2">Сорбрать 10000 грн на оборудование для дитей</p>
+            <input type="button" class="btn" value="Помочь">
+        </div>
+    </div>
 
 </header>
 <div class="wrap_our_idea clearfix">
     <div class="wrap_header clearfix">
-<p class="caption_idea">какая наша идея?</p>
+        <p class="caption_idea">какая наша идея?</p>
         <div class="wrap_idea_text">
-            <p class="text_idea">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-       <p class="text_idea">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+            <p class="text_idea">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            <p class="text_idea">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                architecto beatae vitae dicta sunt explicabo. </p>
         </div>
         <div class="border clearfix">
         </div>
@@ -86,128 +45,212 @@
 
 </div>
 <div class="tovaru clearfix">
-<div class="wrap_header clearfix">
-    <p class="caption_tovar">добрая продукция</p>
-    <div class="tovar clearfix">
-    <div class="wrapper_tovar clearfix">
-            <div class="price"><p>1000 <span><br>грн</span></p></div>
-            <a href="#" class="img_tovar"><img src="img/img_tovar1.png"></a>
-            <p class="title_tovar">обертывание для ног spa "сакские грязи</p>
+    <div class="wrap_header clearfix">
+        <p class="caption_tovar">добрая продукция</p>
+        <div class="tovar clearfix">
+            <div class="wrapper_tovar clearfix">
+                <div class="price"><p>1000 <span>грн</span></p></div>
+                <a href="#" class="img_tovar"><img src="img/img_tovar1.png"></a>
+                <p class="title_tovar">обертывание для ног spa "сакские грязи</p>
 
-        <div class="wrap_hover_tovar">
-            <div class="price"><p>1000 <span><br>грн</span></p></div>
-            <a href="#" class="img_tovar"><img src="img/img_tovar1.png"></a>
-            <p class="title_tovar">обертывание для ног spa "сакские грязи</p>
-            <div class="wrap_opus">
-            <div class="line ">
-                <div class="clearfix">
-                <p class="left_text_opus">Категория</p>
-                <p class="right_text_opus">для женщин</p>
+                <div class="wrap_hover_tovar">
+                    <div class="price"><p>1000 <span>грн</span></p></div>
+                    <a href="#" class="img_tovar"><img src="img/img_tovar1.png"></a>
+                    <p class="title_tovar">обертывание для ног spa "сакские грязи</p>
+                    <div class="wrap_opus">
+                        <div class="line ">
+                            <div class="clearfix">
+                                <p class="left_text_opus">Категория</p>
+                                <p class="right_text_opus">для женщин</p>
+                            </div>
+                        </div>
+                        <div class="line ">
+                            <p class="left_text_opus">Клас</p>
+                            <p class="right_text_opus">органическая</p>
+                        </div>
+                        <div class="line">
+                            <p class="left_text_opus">Обьем</p>
+                            <p class="right_text_opus">100 мл.</p>
+                        </div>
+                        <div class="line">
+                            <p class="left_text_opus">Производитель</p>
+                            <p class="right_text_opus">Германия</p>
+                        </div>
+                        <a href="#" class="btn_hover_tovar go"><span>Помочь</span></a>
                     </div>
-            </div>
-                <div class="line ">
-                    <p class="left_text_opus">Клас</p>
-                    <p class="right_text_opus">органическая</p>
                 </div>
-                <div class="line">
-                    <p class="left_text_opus">Обьем</p>
-                    <p class="right_text_opus">100 мл.</p>
-                </div>
-                <div class="line">
-                    <p class="left_text_opus">Производитель</p>
-                    <p class="right_text_opus">Германия</p>
-                </div>
-                <a href="#" class="btn_hover_tovar go"><span>Помочь</span></a>
-            </div>
-        </div>
 
-    </div>
-        <div class="wrapper_tovar clearfix">
-            <div class="price"><p>1000 <span><br>грн</span></p></div>
-            <a href="#" class="img_tovar"><img src="img/lak.png"></a>
-            <p class="title_tovar">Cыроватка для блеска волос 2 в 1 Doctor Schwartz</p>
-
-            <div class="wrap_hover_tovar">
-                <div class="price"><p>1000 <span><br>грн</span></p></div>
+            </div>
+            <div class="wrapper_tovar clearfix">
+                <div class="price"><p>1000 <span>грн</span></p></div>
                 <a href="#" class="img_tovar"><img src="img/lak.png"></a>
                 <p class="title_tovar">Cыроватка для блеска волос 2 в 1 Doctor Schwartz</p>
-                <div class="wrap_opus">
-                    <div class="line ">
-                        <div class="clearfix">
-                            <p class="left_text_opus">Категория</p>
-                            <p class="right_text_opus">для женщин</p>
+
+                <div class="wrap_hover_tovar">
+                    <div class="price"><p>1000 <span>грн</span></p></div>
+                    <a href="#" class="img_tovar"><img src="img/lak.png"></a>
+                    <p class="title_tovar">Cыроватка для блеска волос 2 в 1 Doctor Schwartz</p>
+                    <div class="wrap_opus">
+                        <div class="line ">
+                            <div class="clearfix">
+                                <p class="left_text_opus">Категория</p>
+                                <p class="right_text_opus">для женщин</p>
+                            </div>
                         </div>
+                        <div class="line ">
+                            <p class="left_text_opus">Клас</p>
+                            <p class="right_text_opus">органическая</p>
+                        </div>
+                        <div class="line">
+                            <p class="left_text_opus">Обьем</p>
+                            <p class="right_text_opus">100 мл.</p>
+                        </div>
+                        <div class="line">
+                            <p class="left_text_opus">Производитель</p>
+                            <p class="right_text_opus">Германия</p>
+                        </div>
+                        <a href="#" class="btn_hover_tovar go"><span>Помочь</span></a>
                     </div>
-                    <div class="line ">
-                        <p class="left_text_opus">Клас</p>
-                        <p class="right_text_opus">органическая</p>
-                    </div>
-                    <div class="line">
-                        <p class="left_text_opus">Обьем</p>
-                        <p class="right_text_opus">100 мл.</p>
-                    </div>
-                    <div class="line">
-                        <p class="left_text_opus">Производитель</p>
-                        <p class="right_text_opus">Германия</p>
-                    </div>
-                    <a href="#" class="btn_hover_tovar go"><span>Помочь</span></a>
                 </div>
+
             </div>
-
-        </div>
-        <div class="wrapper_tovar clearfix">
-            <div class="price"><p>1000 <span><br>грн</span></p></div>
-            <a href="#" class="img_tovar"><img src="img/medik.png"></a>
-            <p class="title_tovar">Восстанавливающая эмульсия «Первая помощь»</p>
-
-            <div class="wrap_hover_tovar">
-                <div class="price"><p>1000 <span><br>грн</span></p></div>
+            <div class="wrapper_tovar clearfix">
+                <div class="price"><p>1000 <span>грн</span></p></div>
                 <a href="#" class="img_tovar"><img src="img/medik.png"></a>
                 <p class="title_tovar">Восстанавливающая эмульсия «Первая помощь»</p>
-                <div class="wrap_opus">
-                    <div class="line ">
-                        <div class="clearfix">
-                            <p class="left_text_opus">Категория</p>
-                            <p class="right_text_opus">для женщин</p>
-                        </div>
-                    </div>
-                    <div class="line ">
-                        <p class="left_text_opus">Клас</p>
-                        <p class="right_text_opus">органическая</p>
-                    </div>
-                    <div class="line">
-                        <p class="left_text_opus">Обьем</p>
-                        <p class="right_text_opus">100 мл.</p>
-                    </div>
-                    <div class="line">
-                        <p class="left_text_opus">Производитель</p>
-                        <p class="right_text_opus">Германия</p>
-                    </div>
-                    <!--<a href="#"  class="btn_hover_tovar"><span>Помочь</span></a>-->
-                    <a href="#" class="btn_hover_tovar go"><span>Помочь</span></a>
-                </div>
-            </div>
 
+                <div class="wrap_hover_tovar">
+                    <div class="price"><p>1000 <span>грн</span></p></div>
+                    <a href="#" class="img_tovar"><img src="img/medik.png"></a>
+                    <p class="title_tovar">Восстанавливающая эмульсия «Первая помощь»</p>
+                    <div class="wrap_opus">
+                        <div class="line ">
+                            <div class="clearfix">
+                                <p class="left_text_opus">Категория</p>
+                                <p class="right_text_opus">для женщин</p>
+                            </div>
+                        </div>
+                        <div class="line ">
+                            <p class="left_text_opus">Клас</p>
+                            <p class="right_text_opus">органическая</p>
+                        </div>
+                        <div class="line">
+                            <p class="left_text_opus">Обьем</p>
+                            <p class="right_text_opus">100 мл.</p>
+                        </div>
+                        <div class="line">
+                            <p class="left_text_opus">Производитель</p>
+                            <p class="right_text_opus">Германия</p>
+                        </div>
+                        <!--<a href="#"  class="btn_hover_tovar"><span>Помочь</span></a>-->
+                        <a href="#" class="btn_hover_tovar go"><span>Помочь</span></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="wrapper_tovar clearfix">
+                <div class="price"><p>1000 <span>грн</span></p></div>
+                <a href="#" class="img_tovar"><img src="img/img_tovar1.png"></a>
+                <p class="title_tovar">обертывание для ног spa "сакские грязи</p>
+
+                <div class="wrap_hover_tovar">
+                    <div class="price"><p>1000 <span>грн</span></p></div>
+                    <a href="#" class="img_tovar"><img src="img/img_tovar1.png"></a>
+                    <p class="title_tovar">обертывание для ног spa "сакские грязи</p>
+                    <div class="wrap_opus">
+                        <div class="line ">
+                            <div class="clearfix">
+                                <p class="left_text_opus">Категория</p>
+                                <p class="right_text_opus">для женщин</p>
+                            </div>
+                        </div>
+                        <div class="line ">
+                            <p class="left_text_opus">Клас</p>
+                            <p class="right_text_opus">органическая</p>
+                        </div>
+                        <div class="line">
+                            <p class="left_text_opus">Обьем</p>
+                            <p class="right_text_opus">100 мл.</p>
+                        </div>
+                        <div class="line">
+                            <p class="left_text_opus">Производитель</p>
+                            <p class="right_text_opus">Германия</p>
+                        </div>
+                        <a href="#" class="btn_hover_tovar go"><span>Помочь</span></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="wrapper_tovar clearfix">
+                <div class="price"><p>1000 <span>грн</span></p></div>
+                <a href="#" class="img_tovar"><img src="img/img_tovar1.png"></a>
+                <p class="title_tovar">обертывание для ног spa "сакские грязи</p>
+
+                <div class="wrap_hover_tovar">
+                    <div class="price"><p>1000 <span>грн</span></p></div>
+                    <a href="#" class="img_tovar"><img src="img/img_tovar1.png"></a>
+                    <p class="title_tovar">обертывание для ног spa "сакские грязи</p>
+                    <div class="wrap_opus">
+                        <div class="line ">
+                            <div class="clearfix">
+                                <p class="left_text_opus">Категория</p>
+                                <p class="right_text_opus">для женщин</p>
+                            </div>
+                        </div>
+                        <div class="line ">
+                            <p class="left_text_opus">Клас</p>
+                            <p class="right_text_opus">органическая</p>
+                        </div>
+                        <div class="line">
+                            <p class="left_text_opus">Обьем</p>
+                            <p class="right_text_opus">100 мл.</p>
+                        </div>
+                        <div class="line">
+                            <p class="left_text_opus">Производитель</p>
+                            <p class="right_text_opus">Германия</p>
+                        </div>
+                        <a href="#" class="btn_hover_tovar go"><span>Помочь</span></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="wrapper_tovar clearfix">
+                <div class="price"><p>1000 <span>грн</span></p></div>
+                <a href="#" class="img_tovar"><img src="img/img_tovar1.png"></a>
+                <p class="title_tovar">обертывание для ног spa "сакские грязи</p>
+
+                <div class="wrap_hover_tovar">
+                    <div class="price"><p>1000 <span>грн</span></p></div>
+                    <a href="#" class="img_tovar"><img src="img/img_tovar1.png"></a>
+                    <p class="title_tovar">обертывание для ног spa "сакские грязи</p>
+                    <div class="wrap_opus">
+                        <div class="line ">
+                            <div class="clearfix">
+                                <p class="left_text_opus">Категория</p>
+                                <p class="right_text_opus">для женщин</p>
+                            </div>
+                        </div>
+                        <div class="line ">
+                            <p class="left_text_opus">Клас</p>
+                            <p class="right_text_opus">органическая</p>
+                        </div>
+                        <div class="line">
+                            <p class="left_text_opus">Обьем</p>
+                            <p class="right_text_opus">100 мл.</p>
+                        </div>
+                        <div class="line">
+                            <p class="left_text_opus">Производитель</p>
+                            <p class="right_text_opus">Германия</p>
+                        </div>
+                        <a href="#" class="btn_hover_tovar go"><span>Помочь</span></a>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        <div id="bt">
+            <a href="#" class="btn_next clearfix"><p>Показать еще</p></a>
         </div>
-        <div class="wrapper_tovar clearfix">
-            <div class="price"><p>1000 <span><br>грн</span></p></div>
-            <a href="#" class="img_tovar"><img src="img/img_tovar1.png"></a>
-            <p class="title_tovar">обертывание для ног spa "сакские грязи</p>
-        </div>
-        <div class="wrapper_tovar clearfix">
-            <div class="price"><p>1000 <span><br>грн</span></p></div>
-            <a href="#" class="img_tovar"><img src="img/img_tovar1.png"></a>
-            <p class="title_tovar">обертывание для ног spa "сакские грязи</p>
-        </div>
-        <div class="wrapper_tovar clearfix">
-            <div class="price"><p>1000 <span><br>грн</span></p></div>
-            <a href="#" class="img_tovar"><img src="img/img_tovar1.png"></a>
-            <p class="title_tovar">обертывание для ног spa "сакские грязи</p>
-        </div>
-</div>
-    <div id="bt">
-    <a href="#" class="btn_next clearfix"><p>Показать еще</p></a>
-    </div>
     </div>
 </div>
 
@@ -219,58 +262,80 @@
         <div class="wraper_zakaz_tovar">
             <div class="min_tovar clearfix">
                 <div class="min_wrapper_tovar clearfix">
-                    <div class="smal_price"><p>1000 <span><br>грн</span></p></div>
+                    <div class="smal_price"><p>1000 <span>грн</span></p></div>
                     <p class="min_img_tovar"><img src="img/smal_img1.png"></p>
-                    </div>
+                </div>
                 <div class="form_zakaz clearfix">
                     <form action="#">
                         <div class="line_zakaz">
-                        <p class="caption1_form">Кількість:</p>
-                        <div class="group-input">
-                            <div class="number-max"></div>
-                            <input type="number" value="1">
-                            <div class="number-min"></div>
+                            <p class="caption1_form">Кількість:</p>
+                            <div class="group-input">
+                                <div class="number-max"></div>
+                                <input type="number" value="1" readonly >
+                                <div class="number-min"></div>
+                            </div>
                         </div>
                             <div class="line_zakaz">
                                 <p class="caption1_form">Способ <br>доставки:</p>
 
-                                <div  class="sposob_dostavku">
+                                <!--<div class="sposob_dostavku">-->
 
-                                    <p class="combobox1"><select>
-                                        <option value="1">1</option>
-                                        <option selected value="нова пошта">нова пошта</option>
-                                        <option value="1">1</option>
-                                        <option value="1">1</option>
-                                    </select></p>
-                                    </div>
+                                    <!--<p class="combobox1"><select>-->
+                                        <!--<option value="1">1</option>-->
+                                        <!--<option selected value="нова пошта">нова пошта</option>-->
+                                        <!--<option value="1">1</option>-->
+                                        <!--<option value="1">1</option>-->
+                                    <!--</select></p>-->
+                                <!--</div>-->
+                                <div class="select-wrapper">
+                                    <div class="select-arrow-3"></div>
+                                    <!--<div class="select-arrow-3"></div>-->
+                                    <select>
+                                        <option>Нова пошта</option>
+                                        <option>Test</option>
+                                        <option>Test</option>
+                                    </select>
                                 </div>
+
+
+                            </div>
                             <div class="line_zakaz">
                                 <p class="caption1_form">Номер <br>отделения:</p>
 
-                                <div class="sposob_dostavku">
+                                <!--<div class="sposob_dostavku">-->
 
-                                    <p class="combobox1"><select>
-                                        <option value="1">1</option>
-                                        <option selected value="12">12</option>
-                                        <option value="1">1</option>
-                                        <option value="1">1</option>
-                                    </select></p>
+                                    <!--<p class="combobox1"><select>-->
+                                        <!--<option value="1">1</option>-->
+                                        <!--<option selected value="12">12</option>-->
+                                        <!--<option value="1">1</option>-->
+                                        <!--<option value="1">1</option>-->
+                                    <!--</select></p>-->
 
+                                <!--</div>-->
+
+                                <div class="select-wrapper">
+                                    <div class="select-arrow-3"></div>
+                                    <!--<div class="select-arrow-3"></div>-->
+                                    <select>
+                                        <option>12</option>
+                                        <option>1</option>
+                                        <option>1</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="line_zakaz">
                                 <p class="caption1_form">Всего к оплате:</p>
                                 <p class="price_text">2000 <span>грн</span></p>
-                                </div>
-                        </div>
+                            </div>
+
                         <button class="oplata">оплатить</button>
-                        </form>
+                    </form>
                 </div>
-                </div>
+            </div>
 
         </div>
         <!--<p style="text-align: center; padding-bottom: 10px;">-->
-           <!--<input class="oplata" type="submit" value="оплатить">-->
+        <!--<input class="oplata" type="submit" value="оплатить">-->
         <!--</p>-->
     </form>
 </div>
@@ -278,31 +343,31 @@
 
 
 <div class="wrap_work clearfix">
-<div class="wrap_header clearfix">
-    <p class="work_caption">вы уже сделали</p>
-    <div class="wrap_block_work clearfix">
-        <div class="block_work clearfix">
-            <p class="work_text1 clearfix">48</p>
-            <p class="work_text2 clearfix">вы уже сделали</p>
-        </div>
-        <div class="block_work clearfix">
-            <p class="work_text1 clearfix">48</p>
-            <p class="work_text2 clearfix">вы уже сделали</p>
-        </div>
-        <div class="block_work clearfix">
-            <p class="work_text1 clearfix">48</p>
-            <p class="work_text2 clearfix">вы уже сделали</p>
-        </div>
-        <div class="block_work clearfix">
-            <p class="work_text1 clearfix">48</p>
-            <p class="work_text2 clearfix">вы уже сделали</p>
+    <div class="wrap_header clearfix">
+        <p class="work_caption">вы уже сделали</p>
+        <div class="wrap_block_work clearfix">
+            <div class="block_work clearfix">
+                <p class="work_text1 clearfix">48</p>
+                <p class="work_text2 clearfix">вы уже сделали</p>
+            </div>
+            <div class="block_work clearfix">
+                <p class="work_text1 clearfix">48</p>
+                <p class="work_text2 clearfix">вы уже сделали</p>
+            </div>
+            <div class="block_work clearfix">
+                <p class="work_text1 clearfix">48</p>
+                <p class="work_text2 clearfix">вы уже сделали</p>
+            </div>
+            <div class="block_work clearfix">
+                <p class="work_text1 clearfix">48</p>
+                <p class="work_text2 clearfix">вы уже сделали</p>
+            </div>
         </div>
     </div>
 </div>
-</div>
 <div class="wrap_partner clearfix">
     <div class="wrap_header clearfix">
-    <p class="caption_partner">Наши партнеры</p>
+        <p class="caption_partner">Наши партнеры</p>
         <div class="wrapper_partner clearfix">
             <div class="block_partner clearfix">
                 <p class="text_partner1">Beiersdorf</p>
@@ -310,8 +375,8 @@
             </div>
             <div class="block_partner clearfix">
                 <div class="wrap_pr clearfix">
-                <img src="img/arterium.png">
-                <p class="text_partner2">arterium</p>
+                    <img src="img/arterium.png">
+                    <p class="text_partner2">arterium</p>
                 </div>
                 <div class="wrap_pr clearfix">
                     <img src="img/arterium.png">
@@ -332,13 +397,13 @@
                     <p class="text_partner2">socar</p>
                 </div>
             </div>
-            </div>
         </div>
     </div>
+</div>
 </div>
 <div class="wrap_map">
     <p class="caption_map">о доставке</p>
     <img src="img/map.png" class="map">
-  </div>
+</div>
 </body>
 </html>

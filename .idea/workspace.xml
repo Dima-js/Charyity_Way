@@ -1,7 +1,493 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8f8275b-e2ac-4da0-a402-2a23c2b5257e" name="Default" comment="" />
+    <list default="true" id="c8f8275b-e2ac-4da0-a402-2a23c2b5257e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NorthernLights-CAPS.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NorthernLights-CAPS.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NorthernLights-Script.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Многоугольник-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/зірки.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/зірки2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/конфета-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/конфета.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/пустишка.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/сердечка.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/соска.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/.jshintignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/ISSUE_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/PULL_REQUEST_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/css/select2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/css/select2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/az.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/sr-Cyrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/i18n/zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/select2.full.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/select2.full.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/select2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/dist/js/select2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/examples/basics.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/examples/data.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/examples/disabled-mode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/examples/disabled-results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/examples/hide-search.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/examples/localization-rtl-diacritics.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/examples/matcher.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/examples/multiple-max.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/examples/placeholders.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/examples/programmatic-control.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/examples/tags.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/examples/themes-templating-responsive-design.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/examples/tokenizer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/ga.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/head.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/js-source-states.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/nav/announcements-4.0.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/nav/examples.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/nav/options-old.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/nav/options.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/navigation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/notice-previous.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options-old/adapters.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options-old/backwards-compatibility.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options-old/core-options.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options-old/dropdown.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options-old/events.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options-old/setting-default-options.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/compatibility.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/compatibility/initial-selection.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/compatibility/introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/compatibility/matcher.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/compatibility/query-function.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/compatibility/text-input.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/core.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/core/amd-support.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/core/data-attributes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/core/options.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/data.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/data/ajax.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/data/array.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/data/select.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/dropdown.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/dropdown/filtering.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/dropdown/placement.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/dropdown/selections.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/dropdown/tagging.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/events.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/events/internal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/events/jquery.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/introduction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/not-written.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/selections.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/selections/clearing-selections.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/selections/multiple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/selections/placeholder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/options/selections/templating.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_includes/social-buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_layouts/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_layouts/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/_alert.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/_anchorjs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/_code.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/_dl-panels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/_examples.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/_featurette.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/_footer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/_hamburger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/_home.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/_jumbotron.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/_layout.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/_nav.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/_prettify.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/_result-repository.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/_sidenav.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/_social.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/_syntax-highlighting.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/_typography.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_alerts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_badges.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_breadcrumbs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_button-groups.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_carousel.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_close.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_code.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_component-animations.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_dropdowns.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_glyphicons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_input-groups.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_jumbotron.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_labels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_list-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_media.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_modals.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_navbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_navs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_normalize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_pager.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_panels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_popovers.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_print.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_progress-bars.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_responsive-embed.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_responsive-utilities.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_scaffolding.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_tables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_thumbnails.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_tooltip.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_type.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_utilities.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/_wells.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_alerts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_background-variant.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_border-radius.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_center-block.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_clearfix.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_gradients.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_grid-framework.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_hide-text.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_labels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_list-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_nav-divider.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_nav-vertical-align.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_opacity.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_panels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_progress-bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_reset-filter.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_reset-text.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_resize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_responsive-visibility.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_size.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_tab-focus.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_table-row.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_text-emphasis.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_text-overflow.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/bootstrap/mixins/_vendor-prefixes.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/font-awesome/_animated.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/font-awesome/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/font-awesome/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/font-awesome/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/font-awesome/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/font-awesome/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/font-awesome/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/font-awesome/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/font-awesome/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/font-awesome/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/font-awesome/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/_sass/vendor/font-awesome/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/announcements-4.0.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/browserconfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/community.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/css/bootstrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/css/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/css/s2-docs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/examples.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/images/android-chrome-36x36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/images/android-chrome-48x48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/images/android-chrome-72x72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/images/apple-touch-icon-57x57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/images/apple-touch-icon-60x60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/images/apple-touch-icon-72x72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/images/apple-touch-icon-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/images/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/images/favicon-16x16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/images/favicon-32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/images/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/images/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/images/mstile-150x150.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/images/mstile-310x150.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/images/mstile-70x70.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/images/safari-pinned-tab.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/options-old.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/options.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/ak.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/al.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/ar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/az.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/ca.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/co.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/ct.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/de.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/fl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/ga.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/hi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/ia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/id.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/il.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/in.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/ks.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/ky.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/la.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/ma.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/md.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/me.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/mi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/mn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/mo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/ms.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/mt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/nc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/nd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/ne.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/nh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/nj.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/nm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/nv.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/ny.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/oh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/ok.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/or.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/pa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/ri.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/sc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/sd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/tn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/tx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/ut.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/va.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/vt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/wa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/wi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/wv.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/images/flags/wy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/js/anchor.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/js/placeholders.jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/docs/vendor/js/prettify.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/select2.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/banner.end.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/banner.start.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/jquery.mousewheel.shim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/jquery.select2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/jquery.shim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/compat/containerCss.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/compat/dropdownCss.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/compat/initSelection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/compat/inputData.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/compat/matcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/compat/query.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/compat/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/data/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/data/array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/data/base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/data/maximumInputLength.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/data/maximumSelectionLength.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/data/minimumInputLength.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/data/select.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/data/tags.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/data/tokenizer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/defaults.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/diacritics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/dropdown/attachBody.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/dropdown/attachContainer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/dropdown/closeOnSelect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/dropdown/hidePlaceholder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/dropdown/infiniteScroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/dropdown/minimumResultsForSearch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/dropdown/search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/dropdown/selectOnClose.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/dropdown/stopPropagation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/az.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/sr-Cyrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/i18n/zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/results.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/selection/allowClear.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/selection/base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/selection/clickMask.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/selection/eventRelay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/selection/multiple.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/selection/placeholder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/selection/search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/selection/single.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/selection/stopPropagation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/translation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/select2/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/wrapper.end.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/js/wrapper.start.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/scss/_dropdown.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/scss/_multiple.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/scss/_single.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/scss/core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/scss/mixins/_gradients.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/scss/theme/classic/_defaults.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/scss/theme/classic/_multiple.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/scss/theme/classic/_single.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/scss/theme/classic/layout.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/scss/theme/default/_multiple.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/scss/theme/default/_single.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/src/scss/theme/default/layout.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/a11y/search-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/a11y/selection-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/data/array-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/data/base-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/data/inputData-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/data/maximumInputLength-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/data/maximumSelectionLength-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/data/minimumInputLength-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/data/select-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/data/tags-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/data/tokenizer-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/dropdown/dropdownCss-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/dropdown/positioning-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/dropdown/selectOnClose-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/dropdown/stopPropagation-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/integration.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/integration/dom-changes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/integration/jquery-calls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/integration/select2-methods.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/options/ajax-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/options/data-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/options/deprecated-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/options/translation-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/options/width-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/results/focusing-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/selection/allowClear-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/selection/containerCss-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/selection/multiple-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/selection/placeholder-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/selection/search-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/selection/single-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/selection/stopPropagation-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/unit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/utils/decorator-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/utils/escapeMarkup-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/vendor/jquery-1.7.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/vendor/qunit-1.23.1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/tests/vendor/qunit-1.23.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/select2-4.0.3/vendor/jquery-2.1.0.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.css" afterPath="$PROJECT_DIR$/main.css" />
+    </list>
     <ignored path="Charyity_Way.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -27,8 +513,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5465517">
-                  <caret line="268" column="22" selection-start-line="268" selection-start-column="22" selection-end-line="268" selection-end-column="22" />
+                <state vertical-scroll-proportion="0.2637931">
+                  <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
@@ -38,11 +524,21 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.22867514">
-                  <caret line="656" column="21" selection-start-line="656" selection-start-column="21" selection-end-line="656" selection-end-column="21" />
+                <state vertical-scroll-proportion="-3.6363637">
+                  <caret line="505" column="25" selection-start-line="505" selection-start-column="25" selection-end-line="505" selection-end-column="25" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.28052804">
+                  <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -60,11 +556,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/main.css" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -128,6 +628,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Charyity_Way" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Charyity_Way" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -183,7 +697,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.105417274" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -223,7 +737,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <caret line="234" column="30" selection-start-line="234" selection-start-column="30" selection-end-line="234" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -238,7 +752,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5465517">
+        <state vertical-scroll-proportion="0.0">
           <caret line="268" column="22" selection-start-line="268" selection-start-column="22" selection-end-line="268" selection-end-column="22" />
           <folding />
         </state>
@@ -246,8 +760,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22867514">
-          <caret line="656" column="21" selection-start-line="656" selection-start-column="21" selection-end-line="656" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6363637">
+          <caret line="505" column="25" selection-start-line="505" selection-start-column="25" selection-end-line="505" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2637931">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28052804">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -20,6 +20,10 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     zoom: 1; /* ie 6/7 */
 }
 @font-face {
+    font-family:NorthernLights-CAPS; /* Имя шрифта */
+    src: url(font/NorthernLights-CAPS.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
     font-family: Katona2; /* Имя шрифта */
     src: url(font/Katona%20II.ttf); /* Путь к файлу со шрифтом */
 }
@@ -75,6 +79,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     font-family: Katona2;
     font-size: 60px;
     color: #fff;
+    font-weight: bold;
 }
 .caption_text2{
     font-family: Lifehack;
@@ -82,13 +87,13 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     color: #fff;
 }
 .wrap_caption_header:before{
-    content: url("img/пустишка.png");
+    content: url("img/Dummy.png");
    position: absolute;
     right: -30px;
     -webkit-transform: rotate(-15deg);
 }
 .wrap_caption_header:after{
-    content: url("img/зірки.png");
+    content: url("img/star.png");
     position: absolute;
     left: -85px;
     bottom: -65px;
@@ -103,6 +108,9 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     margin-right: 118px;
     margin-top: 55px;
    padding-bottom: 25px;
+}
+.wrap_help input:hover{
+    cursor: pointer;
 }
 .help_text1{
    margin-top: 25px;
@@ -138,7 +146,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     box-shadow: 1px 3px 22px -2px rgba(0,0,0,0.75);
 }
 .wrap_help:before{
-    content: url("img/соска.png");
+    content: url("img/nipple.png");
     position: absolute;
     transform: rotate(20deg);
     bottom: 90px;
@@ -151,16 +159,10 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     /*position: relative;*/
 
 }
-/*.wrap_our_idea:after{*/
-    /*content: url("img/конфета.png");*/
-    /*bottom: -35px;*/
-    /*left: 75px;*/
-    /*position: absolute;*/
 
-/*}*/
 .caption_idea{
-    font-size: 24px;
-    font-family: Tahoma;
+    font-size: 60px;
+    font-family:Katona2;
     color: #07263d;
     text-transform: uppercase;
     margin-top: 65px;
@@ -168,9 +170,10 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     position: relative;
     display: block;
     text-align: right;
+    font-weight: bold;
 }
 .caption_idea:before{
-    content: url("img/сердечка.png");
+    content: url("img/heart.png");
     position: absolute;
     right: -70px;
     bottom: 0;
@@ -202,7 +205,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     position: absolute;
 }
 .border:after{
-    content: url("img/конфета.png");
+    content: url("img/candy.png");
     position: absolute;
     bottom: -71px;
     left: -150px;
@@ -222,16 +225,18 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     font-family: Katona2;
     font-size: 60px;
     margin-top: 65px;
+    font-weight: bold;
+    color: #07263d;
 }
 .tovar{
     margin: 30px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .wrapper_tovar{
     display: inline-block;
     width: 320px;
     position: relative;
-    margin-bottom: 65px;
+    margin-bottom: 75px;
 }
 .wrapper_tovar:nth-child(3n+2){
     margin-right: 21px;
@@ -260,9 +265,15 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     opacity: 0;
     overflow: hidden;
     z-index: 2;
+    visibility: hidden;
+
 }
-.wrap_hover_tovar:hover {
+/*.wrap_hover_tovar:hover {*/
+    /*opacity: 1;*/
+/*}*/
+.wrapper_tovar:hover .wrap_hover_tovar{
     opacity: 1;
+    visibility: visible;
 }
 .wrap_opus{
     margin: 20px 42px 40px 42px;
@@ -307,6 +318,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     display: block;
     text-decoration: none;
     margin-top: 20px;
+    margin-left: -5px;
 }
 .btn_hover_tovar span{
     margin: 5px;
@@ -328,11 +340,12 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     overflow: hidden;
     margin-left: 30px;
     margin-right: 30px;
+    font-weight: bold;
 }
 .price{
     height: 98px;
     width: 98px;
-    background-image:url("img/Многоугольник-1.png") ;
+    background-image:url("img/rectangle-1.png") ;
     background-repeat: no-repeat;
     position: absolute;
     z-index: 1;
@@ -344,11 +357,14 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     font-size: 40px;
     font-family: NorthernLights-Script;
     color: #07263d;
+    margin-top: 8px;
+    font-weight: bold;
 }
 .price p span{
     font-size: 30px;
     font-family: Katona2;
     color: #07263d;
+    display: block;
 }
 .btn_next {
     height: 67px;
@@ -357,7 +373,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     text-align:center;
     font-family: Lifehack;
     font-size: 24px;
-    padding-top:20px;
+    padding-top:15px;
     color: #07263d;
     margin: 0 auto;
     background-image: url("img/btn_next.png");
@@ -371,13 +387,13 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     position: relative;
 }
 .wrap_work:before{
-    content: url("img/зірки2.png");
+    content: url("img/star2.png");
     top: 130px;
     left: 165px;
     position: absolute;
 }
 .wrap_work:after{
-    content: url("img/конфета-3.png");
+    content: url("img/candy-3.png");
     bottom: -50px;
     right: 90px;
     position: absolute;
@@ -388,6 +404,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     font-size: 60px;
     color: #07263d;
     text-align: center;
+    font-weight: bold;
 }
 #bt{
     margin-bottom: 120px;
@@ -401,10 +418,11 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 
 .work_text1{
     text-align: center;
-    font-family: Northern_Lights;
+    font-family:NorthernLights-CAPS;
     font-size: 100px;
     color: #07263d;
     text-transform: uppercase;
+    font-weight: bold;
 }
 .work_text2{
     text-align: center;
@@ -412,6 +430,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     font-size: 36px;
     color: #07263d;
     text-transform: uppercase;
+    font-weight: bold;
 }
 .wrap_block_work{
     margin: 65px 70px 115px 70px;
@@ -419,18 +438,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 
 }
 
-/*.wrap_block_work:before{*/
-    /*content: url("img/зірки2.png");*/
-    /*top: 10px;*/
-    /*left: 10px;*/
-    /*position: absolute;*/
-/*}*/
-/*.wrap_block_work:after{*/
-    /*content: url("img/конфета-3.png");*/
-    /*bottom: 10px;*/
-    /*right: 10px;*/
-    /*position: absolute;*/
-/*}*/
+
 .wrap_partner{
     background-image: url("img/partner.png");
     background-repeat: no-repeat;
@@ -445,6 +453,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     font-family: Katona2;
     color: #07263d;
     margin-top: 75px;
+    font-weight: bold;
 }
 
 
@@ -452,12 +461,25 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     float: left;
     width: 25%;
 }
+.block_partner:nth-child(1){
+    text-align: left;
+}
+.block_partner:nth-child(4){
+    text-align: right;
+}
+.block_partner:nth-child(2){
+    text-align: center;
+}
+.block_partner:nth-child(3){
+    text-align: center;
+}
 .text_partner1{
-    font-family:Northern_Lights ;
+    font-family:NorthernLights-CAPS ;
     font-size: 30px;
     color: #07263d;
     margin-bottom: 35px;
     margin-top: 5px;
+    font-weight: bold;
 }
 .wrap_pr img,.text_partner2{
    float: left;
@@ -470,6 +492,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     margin-bottom: 35px;
     margin-top: 5px;
     margin-left: 5px;
+    font-weight: bold;
 }
 .block_partner p:hover{
     color: #fff;
@@ -480,7 +503,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     cursor: pointer;
 }
 .wrapper_partner{
-    margin: 91px 30px 100px 30px;
+    margin: 91px 30px 131px 30px;
 }
 .wrap_map{
     margin-top: -19px;
@@ -496,6 +519,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     text-transform: uppercase;
     text-align: center;
     padding-top: 75px;
+    font-weight: bold;
 }
 .map{
     margin-top: 65px;
@@ -508,14 +532,14 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     background-image:url("img/rectangle.png");
     background-repeat: no-repeat;
     position: fixed; /* чтобы окно было в видимой зоне в любом месте */
-    top: 30%; /* отступаем сверху 45%, остальные 5% подвинет скрипт */
+    top: 30%;
     left: 35%; /* половина экрана слева */
     margin-top: -150px;
     margin-left: -150px; /* тут вся магия центровки css, отступаем влево и вверх минус половину ширины и высоты соответственно =) */
     display: none; /* в обычном состоянии окна не должно быть */
     opacity: 0; /* полностью прозрачно для анимирования */
     z-index: 5; /* окно должно быть наиболее большем слое */
-    padding: 20px 10px;
+    /*padding: 20px 10px;*/
     box-sizing: border-box;
 }
 /* Кнопка закрыть для тех кто в танке) */
@@ -523,8 +547,8 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     width: 21px;
     height: 21px;
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 30px;
+    right: 30px;
     cursor: pointer;
     display: block;
 }
@@ -548,6 +572,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     color: #07263d;
     text-transform: uppercase;
     font-weight: bold;
+    margin-top: 30px;
 }
 .name_tovar{
     text-transform: uppercase;
@@ -556,12 +581,14 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     font-size: 30px;
     color: #07263d;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 
 .min_tovar{
-    margin: 30px;
-    margin-top: 30px;
+    margin-right: 95px;
+    margin-top: 5px;
+
 }
 .min_wrapper_tovar{
    float: left;
@@ -585,11 +612,14 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     font-size: 30px;
     font-family: NorthernLights-Script;
     color: #07263d;
+    margin-top: 8px;
+    font-weight: bold;
 }
 .smal_price p span{
     font-size: 20px;
     font-family: Katona2;
     color: #07263d;
+    display: block;
 }
 .min_img_tovar img{
     height: 205px;
@@ -617,12 +647,15 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 }
 .group-input{
     display: inline-block;
+    padding-left: 40px;
 }
+
+
 .group-input input{
-   width: 60px;
+   width: 35px;
     background-color:transparent;
     text-align: center;
-    font-family: Northern_Lights;
+    font-family:NorthernLights-Script;
     font-size: 45px;
     color: #07263d;
     font-weight: bold;
@@ -646,9 +679,19 @@ input::-webkit-inner-spin-button {
 
 .form_zakaz{
     display: inline-block;
+    width: 350px;
 }
-.line_zalaz{
-
+.line_zakaz:nth-child(1){
+  margin-top:20px;
+}
+.line_zakaz:nth-child(2){
+    margin-top:15px;
+}
+.line_zakaz:nth-child(3){
+    margin-top:15px;
+}
+.line_zakaz:nth-child(4){
+    margin-top:15px;
 }
 
 .sposob_dostavku{
@@ -672,16 +715,20 @@ input::-webkit-inner-spin-button {
     font-weight: bold;
 }
 .price_text{
-font-family: Northern_Lights;
+font-family: NorthernLights-Script;
     font-size: 44px;
     color: #07263d;
-    display: inline-block;
-    margin-left: 45px;
+    float: right;
+    font-weight: bold;
 }
 .price_text span{
     font-family: Katona2;
     font-size: 24px;
     color: #07263d;
+
+}
+.oplata:hover{
+    cursor: pointer;
 }
 .oplata{
     border:1px solid #45abf7; -webkit-border-radius: 20px; -moz-border-radius: 20px;border-radius: 20px;font-size:12px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
@@ -693,4 +740,71 @@ font-family: Northern_Lights;
     background-image: linear-gradient(to bottom, #7BC3F9, #2A7EEE);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7BC3F9, endColorstr=#2A7EEE);
 height: 55px;
     width: 240px;
+    float: right;
+    font-family:Katona2;
+    font-size: 36px;
+    color: #07263d;
 }
+.form_zakaz button{
+    margin-top: 10px;
+}
+
+
+.select-wrapper {
+    position: relative;
+    height: 38px;
+    width: 215px;
+    margin: 20px 0;
+    /*border: 1px solid #6C7231;*/
+    /*border-radius: 3px;*/
+    background-image: url("img/border_combobox.png");
+    box-sizing: border-box;
+    float: right;
+    background-repeat: no-repeat;
+}
+
+.select-wrapper:hover {
+   border: none;
+}
+
+.select-wrapper select {
+    width: 215px;
+    height: 38px;
+    padding: 0 20px 0 7px;
+    background: transparent;
+    border: 0;
+    border:none;
+    appearance: none;            /* remove arrow        */
+    -webkit-appearance: none;    /* remove arrow Chrome */
+    -moz-appearance: none;       /* remove arrow FF     */
+    font-family:Katona2;
+    font-size: 28px;
+    color: #07263d;
+    font-weight: bold;
+    outline: 0;
+    padding-left: 15px;
+}
+.select-wrapper select::-ms-expand{
+    display: none;             /* remove arrow IE     */
+}
+.select-arrow-3 {
+    position: absolute;
+    z-index: -9999;
+    border: 8px solid transparent;
+    border-bottom: 0;
+    right: 6px;
+    top: 5px;
+}
+.select-arrow-3:nth-child(1) {
+
+    /*border-top-color: #6C7231;*/
+    background-image:url("img/arrow_select.png");
+    background-repeat: no-repeat;
+    height: 12px;
+    width: 20px;
+}
+/*.select-arrow-3:nth-child(2) {*/
+    /*top: 8px;*/
+    /*border-top-color: #FFF;*/
+/*}*/
+
