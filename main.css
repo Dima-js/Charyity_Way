@@ -511,6 +511,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     min-width: 1080px;
     max-width: 1920px;
     background-image:url("img/bg_map.png");
+    background-repeat: no-repeat;
     height: 620px;
 }
 .caption_map{
