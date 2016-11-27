@@ -48,31 +48,53 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     src: url(font/DearType%20-%20Lifehack.otf); /* Путь к файлу со шрифтом */
 }
 .header{
-    background-image: url("img/header_bg.png");
+    background-image: url("img/bg_header.png");
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
     position: relative;
     min-width: 1080px;
-    max-width: 1920px;
+}
+/*.header:after{
+    content:  url("img/bg_after.png");
+    background-repeat: repeat-x;
+}*/
+.bg-white{
+    background: url("img/bg_after.png")repeat-x;
+    height: 19px;
+    margin-top: -2px;
+
 }
 .wrap_header{
     width: 1080px;
     margin: 0 auto;
+    position: relative;
 }
-.header:after{
+/*.wrap_header img{*/
+    /*!*content: url("img/bg-v2.png");*!*/
+    /*bottom: -122px;*/
+    /*position: absolute;*/
+    /*left: 0px;*/
+/*}*/
+.wrapper_zadacha img{
     content: url("img/bg-v2.png");
     bottom: -122px;
     position: absolute;
-    left: 70px;
+    left: 0px;
+}
+.wrapper_zadacha{
+    margin-top: 65px;
+    margin-right: 118px;
+    margin-bottom: 25px;
 }
 .logo{
-    display: block;
+    display: inline-block;
     margin-top: 15px;
+    position: absolute;
 }
 .wrap_caption_header{
    text-align: center;
-    margin: -20px 100px 20px 135px;
+    margin: 110px 100px 0px 135px;
     position: relative;
 }
 .caption_text1{
@@ -105,9 +127,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     float: right;
     text-align: center;
     position: relative;
-    margin-right: 118px;
-    margin-top: 55px;
-   padding-bottom: 25px;
+    height: 280px;
 }
 .wrap_help input:hover{
     cursor: pointer;
@@ -118,6 +138,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     font-size: 24px;
     font-family: Lifehack;
     color: #07263d;
+    word-wrap: break-word;
 }
 .help_text2{
     font-size: 24px;
@@ -125,6 +146,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     margin-right: 20px;
     margin-left: 20px;
     color: #07263d;
+    word-wrap: break-word;
 }
 .btn{
     height: 55px;
@@ -140,7 +162,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     text-decoration: none;
     font-family: Lifehack;
     color: #07263d;
-    margin: 15px 50px 60px 50px;
+    margin: 15px auto ;
     -webkit-box-shadow: 1px 3px 22px -2px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 3px 22px -2px rgba(0,0,0,0.75);
     box-shadow: 1px 3px 22px -2px rgba(0,0,0,0.75);
@@ -155,7 +177,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 
 }
 .wrap_our_idea{
-    width: 100%;
+    min-width: 1080px;
     background-color: #ffffff;
     /*position: relative;*/
 
@@ -181,22 +203,32 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 }
 .wrap_idea_text{
     display: inline-block;
-    margin-top: 55px;
+
     width: 670px;
     float: right;
 }
-.text_idea{
+.wrapper_idea{
+    margin: 55px 0px 30px 50px;
+
+}
+.text_idea:nth-child(1){
     font-family: "PTSans Narrow";
     font-size: 18px;
     color: #0f4d7c;
     margin-bottom: 30px;
+}
+.text_idea:nth-child(2){
+    font-family: "PTSans Narrow";
+    font-size: 18px;
+    color: #0f4d7c;
+
 }
 .border{
     background-image: url("img/border2.png");
     width: 269px;
     height: 208px;
     float: right;
-    margin: 55px 50px 15px 50px;
+  margin-right: 50px;
     position: relative;
 }
 .border:before{
@@ -208,19 +240,47 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 .border:after{
     content: url("img/candy.png");
     position: absolute;
-    bottom: -71px;
-    left: -150px;
+    bottom: -60px;
+    left: -100px;
+    z-index: 1;
 }
 .tovaru{
-    width: 100%;
-    background-image: url("img/bg_tovar1.png");
+   min-width: 1080px;
+    background-image: url("img/bg_tovar.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    min-width: 1080px;
-    max-width: 1920px;
-}
 
+}
+.bg_hvuli1{
+    background: url("img/bg_tovaru1.png")repeat-x;
+    height: 19px;
+    z-index: 2;
+    position: relative;
+    margin-bottom: -1px;
+}
+.bg_hvuli2{
+    background: url("img/bg_tovaru2.png")repeat-x;
+    height: 19px;
+    z-index: 2;
+    position: relative;
+    margin-top: -1px;
+
+}
+.bg_hvuli3{
+    background: url("img/bg_work2.png")repeat-x;
+    height: 20px;
+    z-index: 2;
+    position: relative;
+    margin-bottom: -1px;
+}
+.bg_hvuli4{
+    background: url("img/bg_work3.png")repeat-x;
+    height: 20px;
+    z-index: 2;
+    position: relative;
+    margin-top: -1px;
+}
 .caption_tovar{
     text-align: center;
     font-family: Katona2;
@@ -314,33 +374,37 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 }
 .btn_hover_tovar{
     background-image: url("img/hover_btn.png");
+    background-repeat: no-repeat;
     height: 67px;
     width: 252px;
     display: block;
     text-decoration: none;
     margin-top: 20px;
     margin-left: -5px;
-}
-.btn_hover_tovar span{
-    margin: 5px;
     font-family: Lifehack;
     font-size: 24px;
     color: #07263d;
     text-align: center;
-    padding-top: 10px;
-    display: block;
+    padding-top: 15px;
 }
+/*.btn_hover_tovar span{*/
+    /*margin: 5px;*/
+    /*font-family: Lifehack;*/
+    /*font-size: 24px;*/
+    /*color: #07263d;*/
+    /*text-align: center;*/
+    /*padding-top: 10px;*/
+    /*display: block;*/
+/*}*/
 .title_tovar{
     font-family: Katona2, MinionPro-Regular;
     font-size: 30px;
     color: #07263d;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 30px;
     height: 63px;
     overflow: hidden;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: 30px 30px 0px 30px;
     font-weight: bold;
 }
 .price{
@@ -368,10 +432,11 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     display: block;
 }
 .btn_next {
+    text-align: center;
+    padding-bottom: 120px;
     height: 67px;
     width: 392px;
     text-decoration:none;
-    text-align:center;
     font-family: Lifehack;
     font-size: 24px;
     padding-top:15px;
@@ -383,34 +448,36 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 }
 
 .wrap_work{
-    width: 100%;
     background-color: #fff;
     position: relative;
+    width: 1080px;
+    margin: 0 auto;
+    min-width: 1080px;
 }
-.wrap_work:before{
+.wrap_work:before {
     content: url("img/star2.png");
     top: 130px;
-    left: 165px;
+    left: 0;
     position: absolute;
 }
-.wrap_work:after{
-    content: url("img/candy-3.png");
-    bottom: -50px;
-    right: 90px;
+.wrap_work:after {
+    content: " ";
+    bottom: -40px;
+    right: 0;
     position: absolute;
+    background: url("img/candy-3.png") no-repeat;
+    height: 241px;
+    width: 95px;
 }
 .work_caption{
-    margin-top: 45px;
+    /*margin-top: 45px;*/
     font-family: Katona2;
     font-size: 60px;
     color: #07263d;
     text-align: center;
     font-weight: bold;
 }
-#bt{
-    margin-bottom: 120px;
-    margin-top: 71px;
-}
+
 .block_work{
     float: left;
     width: 25%;
@@ -434,19 +501,22 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     font-weight: bold;
 }
 .wrap_block_work{
-    margin: 65px 70px 115px 70px;
+    margin-top: 65px;
     /*position: relative;*/
 
+}
+.wrapper_wor{
+    margin:45px 70px 115px 70px;
 }
 
 
 .wrap_partner{
-    background-image: url("img/partner.png");
+    background-color: #239efd;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     min-width: 1080px;
-    max-width: 1920px;
+
 }
 .caption_partner{
     text-align: center;
@@ -507,12 +577,14 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     margin: 91px 30px 131px 30px;
 }
 .wrap_map{
-    margin-top: -19px;
+    /*margin-top: -19px;*/
+
+    /*background-image:url("img/bg_map.png");*/
+    /*background-repeat: no-repeat;*/
+    height: 600px;
+    position: relative;
+    top: -77px;
     min-width: 1080px;
-    max-width: 1920px;
-    background-image:url("img/bg_map.png");
-    background-repeat: no-repeat;
-    height: 620px;
 }
 .caption_map{
     font-family: Katona2;
@@ -520,8 +592,11 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     color: #07263d;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 75px;
+    /*padding-top: 75px;*/
     font-weight: bold;
+    position: relative;
+    top: 75px;
+    z-index: 2;
 }
 .map{
     margin-top: 65px;
@@ -534,14 +609,12 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     background-image:url("img/rectangle.png");
     background-repeat: no-repeat;
     position: fixed; /* чтобы окно было в видимой зоне в любом месте */
-    top: 30%;
-    left: 35%; /* половина экрана слева */
-    margin-top: -150px;
-    margin-left: -150px; /* тут вся магия центровки css, отступаем влево и вверх минус половину ширины и высоты соответственно =) */
+    top: 50%!important;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: none; /* в обычном состоянии окна не должно быть */
     opacity: 0; /* полностью прозрачно для анимирования */
     z-index: 5; /* окно должно быть наиболее большем слое */
-    /*padding: 20px 10px;*/
     box-sizing: border-box;
 }
 /* Кнопка закрыть для тех кто в танке) */
