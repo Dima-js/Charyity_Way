@@ -20,32 +20,127 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     zoom: 1; /* ie 6/7 */
 }
 @font-face {
-    font-family:NorthernLights-CAPS; /* Имя шрифта */
-    src: url(font/NorthernLights-CAPS.ttf); /* Путь к файлу со шрифтом */
+    font-family: 'KatonaII';
+    src: url('fonts/KatonaII.eot');
+    src: url('fonts/KatonaII.eot') format('embedded-opentype'),
+    url('fonts/KatonaII.woff2') format('woff2'),
+    url('fonts/KatonaII.woff') format('woff'),
+    url('fonts/KatonaII.ttf') format('truetype'),
+    url('fonts/KatonaII.svg#KatonaII') format('svg');
+}
+
+
+
+@font-face {
+    font-family: 'NorthernLightsCAPS';
+    src: url('fonts/NorthernLightsCAPS.eot');
+    src: url('fonts/NorthernLightsCAPS.eot') format('embedded-opentype'),
+    url('fonts/NorthernLightsCAPS.woff2') format('woff2'),
+    url('fonts/NorthernLightsCAPS.woff') format('woff'),
+    url('fonts/NorthernLightsCAPS.ttf') format('truetype'),
+    url('fonts/NorthernLightsCAPS.svg#NorthernLightsCAPS') format('svg');
 }
 @font-face {
-    font-family: Katona2; /* Имя шрифта */
-    src: url(font/Katona%20II.ttf); /* Путь к файлу со шрифтом */
+    font-family: 'KatonaII';
+    src: url('fonts/KatonaII.eot');
+    src: url('fonts/KatonaII.eot') format('embedded-opentype'),
+    url('fonts/KatonaII.woff2') format('woff2'),
+    url('fonts/KatonaII.woff') format('woff'),
+    url('fonts/KatonaII.ttf') format('truetype'),
+    url('fonts/KatonaII.svg#KatonaII') format('svg');
 }
+
+
+
+@font-face {
+    font-family: 'NorthernLightsCAPS';
+    src: url('fonts/NorthernLightsCAPS.eot');
+    src: url('fonts/NorthernLightsCAPS.eot') format('embedded-opentype'),
+    url('fonts/NorthernLightsCAPS.woff2') format('woff2'),
+    url('fonts/NorthernLightsCAPS.woff') format('woff'),
+    url('fonts/NorthernLightsCAPS.ttf') format('truetype'),
+    url('fonts/NorthernLightsCAPS.svg#NorthernLightsCAPS') format('svg');
+}
+
+@font-face {
+    font-family:Northern_Lights;
+    src: url('fonts/Northern_Lights.eot');
+    src: url('fonts/Northern_Lights.eot') format('embedded-opentype'),
+    url('fonts/Northern_Lights.woff2') format('woff2'),
+    url('fonts/Northern_Lights.woff') format('woff'),
+    url('fonts/Northern_Lights.ttf') format('truetype'),
+    url('fonts/Northern_Lights.svg#Northern_Lights') format('svg');
+}
+
+
+@font-face {
+    font-family: NorthernLights-Script;
+    src: url('fonts/NorthernLightsScript.eot');
+    src: url('fonts/NorthernLightsScript.eot') format('embedded-opentype'),
+    url('fonts/NorthernLightsScript.woff2') format('woff2'),
+    url('fonts/NorthernLightsScript.woff') format('woff'),
+    url('fonts/NorthernLightsScript.ttf') format('truetype'),
+    url('fonts/NorthernLightsScript.svg#NorthernLightsScript') format('svg');
+}
+
+@font-face {
+    font-family:'PTSans Narrow';
+    src: url('fonts/PT Sans Narrow.eot');
+    src: url('fonts/PT Sans Narrow.eot?#iefix') format('embedded-opentype'),
+    url('fonts/PT Sans Narrow.woff2') format('woff2'),
+    url('fonts/PT Sans Narrow.woff') format('woff'),
+    url('fonts/PT Sans Narrow.svg#PT Sans Narrow') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: condensed;
+    unicode-range: U+0020-F6CE;
+}
+
+@font-face {
+    font-family:MinionPro-Regular;
+    src: url('fonts/MinionPro-Regular.eot');
+    src: url('fonts/MinionPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/MinionPro-Regular.woff2') format('woff2'),
+    url('fonts/MinionPro-Regular.woff') format('woff'),
+    url('fonts/MinionPro-Regular.svg#MinionPro-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+
+@font-face {
+    font-family:Lifehack;
+    src: url('fonts/DearTypeLifehack.eot');
+    src: url('fonts/DearTypeLifehack.eot') format('embedded-opentype'),
+    url('fonts/DearTypeLifehack.woff2') format('woff2'),
+    url('fonts/DearTypeLifehack.woff') format('woff'),
+    url('fonts/DearTypeLifehack.ttf') format('truetype'),
+    url('fonts/DearTypeLifehack.svg#DearTypeLifehack') format('svg');
+}
+
+
 @font-face {
     font-family:Northern_Lights; /* Имя шрифта */
-    src: url(font/Northern_Lights.ttf); /* Путь к файлу со шрифтом */
+    src: url(fonts/Northern_Lights.ttf); /* Путь к файлу со шрифтом */
 }
+
 @font-face {
     font-family: NorthernLights-Script; /* Имя шрифта */
-    src: url(font/NorthernLights-Script.ttf); /* Путь к файлу со шрифтом */
+    src: url(fonts/NorthernLights-Script.ttf); /* Путь к файлу со шрифтом */
 }
 @font-face {
     font-family: PTSans Narrow; /* Имя шрифта */
-    src: url(font/PTSans%20Narrow.ttf); /* Путь к файлу со шрифтом */
+    src: url(fonts/PTSans%20Narrow.ttf); /* Путь к файлу со шрифтом */
 }
 @font-face {
     font-family: MinionPro-Regular; /* Имя шрифта */
-    src: url(font/MinionPro-Regular.otf); /* Путь к файлу со шрифтом */
+    src: url(fonts/MinionPro-Regular.otf); /* Путь к файлу со шрифтом */
 }
 @font-face {
     font-family:Lifehack; /* Имя шрифта */
-    src: url(font/DearType%20-%20Lifehack.otf); /* Путь к файлу со шрифтом */
+    src: url(fonts/DearType%20-%20Lifehack.otf); /* Путь к файлу со шрифтом */
 }
 .header{
     background-image: url("img/bg_header.png");
@@ -98,7 +193,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     position: relative;
 }
 .caption_text1{
-    font-family: Katona2;
+    font-family: KatonaII;
     font-size: 60px;
     color: #fff;
     font-weight: bold;
@@ -185,7 +280,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 
 .caption_idea{
     font-size: 60px;
-    font-family:Katona2;
+    font-family:KatonaII;
     color: #07263d;
     text-transform: uppercase;
     margin-top: 65px;
@@ -208,7 +303,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     float: right;
 }
 .wrapper_idea{
-    margin: 55px 0px 30px 50px;
+    margin: 55px 30px 30px 50px;
 
 }
 .text_idea:nth-child(1){
@@ -283,7 +378,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 }
 .caption_tovar{
     text-align: center;
-    font-family: Katona2;
+    font-family: KatonaII;
     font-size: 60px;
     margin-top: 65px;
     font-weight: bold;
@@ -397,7 +492,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     /*display: block;*/
 /*}*/
 .title_tovar{
-    font-family: Katona2, MinionPro-Regular;
+    font-family: KatonaII, MinionPro-Regular;
     font-size: 30px;
     color: #07263d;
     text-align: center;
@@ -427,7 +522,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 }
 .price p span{
     font-size: 30px;
-    font-family: Katona2;
+    font-family: KatonaII;
     color: #07263d;
     display: block;
 }
@@ -471,7 +566,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 }
 .work_caption{
     /*margin-top: 45px;*/
-    font-family: Katona2;
+    font-family:KatonaII;
     font-size: 60px;
     color: #07263d;
     text-align: center;
@@ -486,7 +581,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 
 .work_text1{
     text-align: center;
-    font-family:NorthernLights-CAPS;
+    font-family:NorthernLightsCAPS;
     font-size: 100px;
     color: #07263d;
     text-transform: uppercase;
@@ -494,7 +589,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 }
 .work_text2{
     text-align: center;
-    font-family: Katona2;
+    font-family: KatonaII;
     font-size: 36px;
     color: #07263d;
     text-transform: uppercase;
@@ -521,49 +616,83 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 .caption_partner{
     text-align: center;
     font-size: 60px;
-    font-family: Katona2;
+    font-family: KatonaII;
     color: #07263d;
-    margin-top: 75px;
     font-weight: bold;
 }
 
 
 .block_partner{
+    display: block;
+}
+.block_partner1{
+    padding-top: 77px;
+    display: block;
+}
+
+.text_partner1{
+    font-family:NorthernLightsCAPS ;
+    font-size: 30px;
+    color: #07263d;
+    /*margin-bottom: 35px;*/
+    /*margin-top: 5px;*/
+    font-weight: bold;
+    float: left;
+   width: 25%;
+    box-sizing: border-box;
+}
+.pad{
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+.wrap_pr:nth-child(2){
+    padding-left: 5px;
+     box-sizing: border-box;
+ }
+.wrap_pr:nth-child(1){
+    padding-left: 65px;
+    box-sizing: border-box;
+}
+/*.text_partner1:nth-child(2){*/
+    /*margin-left: 105px;*/
+/*}*/
+.wrap_pr:nth-child(1) {
+    float: right !important;
+}
+.wrap_pr img:nth-child(2) {
+    float: right !important;
+}
+.wrap_pr .text_partner2:nth-child(1) {
+    float: right !important;
+}
+/*.wrap_pr:nth-child(1){*/
+    /*margin-left: 80px*/
+/*}*/
+/*.wrap_pr:nth-child(2){*/
+    /*margin-left: 80px*/
+/*}*/
+
+.wrap_pr{
+    display: inline-block;
     float: left;
     width: 25%;
 }
-.block_partner:nth-child(1){
-    text-align: left;
+.wrap_pr img,.wrap_pr div{
+    display: inline-block;
+    float: left;
 }
-.block_partner:nth-child(4){
-    text-align: right;
-}
-.block_partner:nth-child(2){
-    text-align: center;
-}
-.block_partner:nth-child(3){
-    text-align: center;
-}
-.text_partner1{
-    font-family:NorthernLights-CAPS ;
-    font-size: 30px;
-    color: #07263d;
-    margin-bottom: 35px;
-    margin-top: 5px;
-    font-weight: bold;
-}
-.wrap_pr img,.text_partner2{
-   float: left;
+.wrp_block_part{
+    margin:75px 30px 131px 30px;
 }
 .text_partner2{
     font-family: Arial;
     font-size: 30px;
     color:#07263d ;
     text-transform: uppercase;
-    margin-bottom: 35px;
-    margin-top: 5px;
-    margin-left: 5px;
     font-weight: bold;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 .block_partner p:hover{
     color: #fff;
@@ -574,7 +703,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     cursor: pointer;
 }
 .wrapper_partner{
-    margin: 91px 30px 131px 30px;
+    margin-top: 91px;
 }
 .wrap_map{
     /*margin-top: -19px;*/
@@ -587,7 +716,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     min-width: 1080px;
 }
 .caption_map{
-    font-family: Katona2;
+    font-family: KatonaII;
     font-size: 60px;
     color: #07263d;
     text-transform: uppercase;
@@ -642,7 +771,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 }
 .zakaz{
     text-align: center;
-    font-family: Katona2;
+    font-family:KatonaII;
     font-size: 60px;
     color: #07263d;
     text-transform: uppercase;
@@ -652,7 +781,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 .name_tovar{
     text-transform: uppercase;
     text-align: center;
-    font-family: Katona2;
+    font-family: KatonaII;
     font-size: 30px;
     color: #07263d;
     font-weight: bold;
@@ -692,7 +821,7 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
 }
 .smal_price p span{
     font-size: 20px;
-    font-family: Katona2;
+    font-family: KatonaII;
     color: #07263d;
     display: block;
 }
@@ -743,7 +872,7 @@ input::-webkit-inner-spin-button {
 .caption1_form{
     display: inline-block;
     color:#07263d;
-    font-family:Katona2;
+    font-family:KatonaII;
     font-size: 30px;
     text-transform: uppercase;
     font-weight: bold;
@@ -784,7 +913,7 @@ input::-webkit-inner-spin-button {
 }
 .combobox1 select{
     background-color: transparent;
-    font-family: Katona2;
+    font-family: KatonaII;
     font-size: 28px;
     color: #07263d;
     font-weight: bold;
@@ -797,7 +926,7 @@ font-family: NorthernLights-Script;
     font-weight: bold;
 }
 .price_text span{
-    font-family: Katona2;
+    font-family: KatonaII;
     font-size: 24px;
     color: #07263d;
 
@@ -829,7 +958,7 @@ font-family: NorthernLights-Script;
     height: 55px;
     width: 240px;
     float: right;
-    font-family: Katona2;
+    font-family:KatonaII;
     font-size: 36px;
     color: #07263d;
     outline: 0;
@@ -867,7 +996,7 @@ font-family: NorthernLights-Script;
     appearance: none;            /* remove arrow        */
     -webkit-appearance: none;    /* remove arrow Chrome */
     -moz-appearance: none;       /* remove arrow FF     */
-    font-family:Katona2;
+    font-family:KatonaII;
     font-size: 28px;
     color: #07263d;
     font-weight: bold;
