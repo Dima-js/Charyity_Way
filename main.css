@@ -203,17 +203,42 @@ html, body,textarea, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
     font-size: 36px;
     color: #fff;
 }
-.wrap_caption_header:before{
-    content: url("img/Dummy.png");
-   position: absolute;
+/*.wrap_caption_header:before{*/
+     /*content: url("img/Dummy.png");*/
+     /*position: absolute;*/
+     /*right: -30px;*/
+     /*-webkit-transform: rotate(-15deg);*/
+ /*}*/
+.dum{
+    /*background-image: url("img/Dummy.png");*/
+    /*background-repeat: no-repeat;*/
+    position: absolute;
     right: -30px;
-    -webkit-transform: rotate(-15deg);
+
 }
-.wrap_caption_header:after{
-    content: url("img/star.png");
+.dum img{
+    height: 105px;
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+
+
+}
+/*.wrap_caption_header:after{*/
+    /*position: absolute;*/
+    /*left: -85px;*/
+    /*bottom: -65px;*/
+/*}*/
+.star{
     position: absolute;
     left: -85px;
     bottom: -65px;
+}
+.star img{
+    height:100px;
+    width: 150px;
 }
 .wrap_help{
     background: url("img/border1.png");
@@ -1031,4 +1056,26 @@ font-family: NorthernLights-Script;
     /*top: 8px;*/
     /*border-top-color: #FFF;*/
 /*}*/
-
+.parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.parallax__layer--base {
+    transform: translateZ(-1px);
+    bottom: 193px;
+    left: -370px;
+}
+.parallax__layer--back {
+    transform: translateZ(-1px);
+    top: -50px;
+    right: -100px;
+}
