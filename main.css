@@ -507,6 +507,49 @@ textarea{
     opacity: 1;
     visibility: visible;
 }
+
+
+
+.text_partner1{
+    background-image: url("img/podveski.png");
+    background-position: 0px -7px;
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 25%;
+    display: inline-block;
+}
+.text_partner2{
+    background-image: url("img/fotobym.png");
+    background-position: 0px -7px;
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 25%;
+    display: inline-block;
+}
+.text_partner3{
+    background-image: url("img/lavka.png");
+    background-position: 0px -7px;
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 25%;
+    display: inline-block;
+}
+.text_partner3{
+    background-image: url("img/lavka.png");
+    background-position: 0px -7px;
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 25%;
+    display: inline-block;
+}
+.text_partner4{
+    background-image: url("img/lavka.png");
+    background-position: 0px -7px;
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 25%;
+    display: inline-block;
+}
 .wrap_opus{
     margin: 20px 42px 40px 42px;
 }
@@ -773,17 +816,7 @@ textarea{
     display: block;
 }
 
-.text_partner1{
-    font-family:NorthernLightsCAPS ;
-    font-size: 30px;
-    color: #07263d;
-    /*margin-bottom: 35px;*/
-    /*margin-top: 5px;*/
-    font-weight: bold;
-    float: left;
-   width: 25%;
-    box-sizing: border-box;
-}
+
 .pad {
     padding-left: 50px;
     box-sizing: border-box;
@@ -800,18 +833,16 @@ textarea{
     padding-left: 65px;
     box-sizing: border-box;
 }
-/*.text_partner1:nth-child(2){*/
-    /*margin-left: 105px;*/
-/*}*/
+
 .wrap_pr:nth-child(1) {
     float: right !important;
 }
 .wrap_pr img:nth-child(2) {
     float: right !important;
 }
-.wrap_pr .text_partner2:nth-child(1) {
-    float: right !important;
-}
+/*.wrap_pr .text_partner2:nth-child(1) {*/
+    /*float: right !important;*/
+/*}*/
 /*.wrap_pr:nth-child(1){*/
     /*margin-left: 80px*/
 /*}*/
@@ -833,15 +864,15 @@ textarea{
 .wrp_block_part{
     margin:80px 30px 150px 30px;
 }
-.text_partner2{
-    font-family: Arial;
-    font-size: 30px;
-    color:#07263d ;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-top: 5px;
-    margin-left: 10px;
-}
+/*.text_partner2{*/
+    /*font-family: Arial;*/
+    /*font-size: 30px;*/
+    /*color:#07263d ;*/
+    /*text-transform: uppercase;*/
+    /*font-weight: bold;*/
+    /*margin-top: 5px;*/
+    /*margin-left: 10px;*/
+/*}*/
 .block_partner p:hover{
     color: #fff;
     cursor: pointer;
