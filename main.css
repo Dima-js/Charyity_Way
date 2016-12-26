@@ -174,8 +174,9 @@ textarea{
     background-repeat: repeat-x;
 }*/
 .bg-white{
-    background: url("img/pattern-white%20(2).png")repeat-x;
-    height: 45px;
+    background: url("img/pattern-white.png")repeat-x;
+    height: 20px;
+    /* margin-top: -6px; */
     background-position: 0 -1px;
 }
 .wrap_header{
@@ -446,8 +447,8 @@ textarea{
     height: 18px;
     z-index: 2;
     position: relative;
-    /*margin-bottom: -1px;*/
-    margin-bottom: -2px;
+    margin-bottom: -1px;
+    /*margin-bottom: -2px;*/
     background-position: 0 -1px;
 }
 .bg_hvuli2{
@@ -1203,6 +1204,10 @@ margin-top: 30px;
     position: fixed; /* чтобы окно было в видимой зоне в любом месте */
     top: 50%!important;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     display: none; /* в обычном состоянии окна не должно быть */
     opacity: 0; /* полностью прозрачно для анимирования */
@@ -1256,7 +1261,6 @@ margin-top: 30px;
 
 
 .min_tovar{
-
     margin-top: 5px;
 
 }
@@ -1430,6 +1434,8 @@ font-family: ObelixPro;
     background-image: -ms-linear-gradient(top, #7BC3F9, #2A7EEE);
     background-image: -o-linear-gradient(top, #7BC3F9, #2A7EEE);
     background-image: linear-gradient(to bottom, #7BC3F9, #2A7EEE);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7BC3F9, endColorstr=#2A7EEE);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7BC3F9, endColorstr=#2A7EEE);
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7BC3F9, endColorstr=#2A7EEE);
     height: 55px;
     width: 240px;
@@ -2057,6 +2063,8 @@ font-family: ObelixPro;
     }
     .btn_hover_tovar {
         margin-left: 0px;
+        height: 43px;
+        line-height: 43px;
     }
     .wrap_hover_tovar {
         height: 715px;
