@@ -1209,6 +1209,7 @@ margin-top: 30px;
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+
     display: none; /* в обычном состоянии окна не должно быть */
     opacity: 0; /* полностью прозрачно для анимирования */
     z-index: 5; /* окно должно быть наиболее большем слое */
@@ -1463,6 +1464,10 @@ font-family: ObelixPro;
     position: fixed; /* чтобы окно было в видимой зоне в любом месте */
     top: 50%!important;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     display: none; /* в обычном состоянии окна не должно быть */
     opacity: 0; /* полностью прозрачно для анимирования */
