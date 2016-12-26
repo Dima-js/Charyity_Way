@@ -174,9 +174,8 @@ textarea{
     background-repeat: repeat-x;
 }*/
 .bg-white{
-    background: url("img/pattern-white.png")repeat-x;
-    height: 20px;
-    /* margin-top: -6px; */
+    background: url("img/pattern-white%20(2).png")repeat-x;
+    height: 45px;
     background-position: 0 -1px;
 }
 .wrap_header{
