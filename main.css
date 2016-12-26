@@ -448,7 +448,7 @@ textarea{
     z-index: 2;
     position: relative;
     /*margin-bottom: -1px;*/
-    margin-bottom: -1px;
+    margin-bottom: -2px;
     background-position: 0 -1px;
 }
 .bg_hvuli2{
