@@ -174,10 +174,10 @@ textarea{
     background-repeat: repeat-x;
 }*/
 .bg-white{
-    background: url("img/bg_after.png")repeat-x;
-    height: 19px;
-    margin-top: -5px;
-    background-position: 0 0px;
+    background: url("img/pattern-white.png")repeat-x;
+    height: 20px;
+    /* margin-top: -6px; */
+    background-position: 0 -1px;
 }
 .wrap_header{
     width: 1080px;
@@ -444,7 +444,7 @@ textarea{
 }
 .bg_hvuli1{
     background: url("img/bg_tovaru1.png")repeat-x;
-    height: 19px;
+    height: 18px;
     z-index: 2;
     position: relative;
     /*margin-bottom: -1px;*/
@@ -456,7 +456,7 @@ textarea{
     height: 19px;
     z-index: 2;
     position: relative;
-    margin-top: -1px;
+    margin-top: -2px;
     background-position: 0 1px;
 }
 .bg_hvuli3{
@@ -472,7 +472,7 @@ textarea{
     height: 20px;
     z-index: 2;
     position: relative;
-    margin-top: -1px;
+    margin-top: -2px;
 }
 .caption_tovar{
     text-align: center;
@@ -707,15 +707,12 @@ text-decoration: none;
     background-repeat: no-repeat;
     display: block;
 }
-/*.btn_hover_tovar span{*/
-    /*margin: 5px;*/
-    /*font-family: Lifehack;*/
-    /*font-size: 24px;*/
-    /*color: #07263d;*/
-    /*text-align: center;*/
-    /*padding-top: 10px;*/
-    /*display: block;*/
-/*}*/
+.number-max{
+    cursor: pointer;
+}
+.number-min{
+    cursor: pointer;
+}
 .title_tovar{
     font-family:"PTSans Narrow";
     font-size: 20px;
