@@ -423,7 +423,7 @@ textarea{
 }
 .candy_class{
     position: absolute;
-    bottom: -86px;
+    bottom: -150px;
     left: -41px;
     z-index: 1;
     height: 68px;
@@ -658,7 +658,7 @@ text-decoration: none;
     outline: 0;
     display: block;
     text-decoration: none;
-    margin-left: -5px;
+    /*margin-left: -5px;*/
     text-align: center;
     line-height: 53px;
 }
@@ -984,11 +984,14 @@ margin-top: 75px;
     font-family: "PTSans Narrow";
     font-size: 24px;
     color:#07263d;
+    text-decoration: none;
+    display: block;
 }
 .number_phon2{
     font-family: "PTSans Narrow";
     font-size: 24px;
     color:#07263d;
+    text-decoration: none;
 }
 .wrap_phon{
     padding-top: 130px;
@@ -1343,11 +1346,15 @@ margin-top: 30px;
     font-size: 24px;
     color: #07263d;
     font-weight: bold;
+
 }
 input::-webkit-inner-spin-button {
     /* display: none; <- Crashes Chrome on hover */
     -webkit-appearance: none;
      /* <-- Apparently some margin are still there even though it's hidden */
+}
+input[type='number'] {
+    -moz-appearance: textfield;
 }
 .caption1_form{
     display: inline-block;
@@ -2031,7 +2038,7 @@ font-family: ObelixPro;
         padding-top: 20px;
     }
     .wrapper_idea {
-        margin: 55px 30px 30px 30px;
+        margin: 55px 30px 65px 30px;
     }
     .caption_tovar {
         margin-top: 50px;
