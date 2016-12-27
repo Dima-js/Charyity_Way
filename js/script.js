@@ -13,16 +13,15 @@
       if($('#user_phone').exists()){
         
         $('#user_phone').each(function(){
-          $(this).mask("38(999) 999-99-99");
+          $(this).mask("+38(099) 999-99-99");
         });
         $('#user_phone')
           .addClass('rfield')
           .removeAttr('required')
           .removeAttr('pattern')
-          .removeAttr('title');
+          .removeAttr('title')
+          //.attr({'placeholder':'(___) ___ __ __'});
       }
-
-
       
       if($('.phone_form').exists()){
         
@@ -57,11 +56,6 @@
         },200);
 
         btn.click(function(){
-          if ($('.name_sender').length<4){
-            alert('khj');
-
-          }
-          else
           if($(this).hasClass('disabled')){
             return false
           } else {

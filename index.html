@@ -10,83 +10,87 @@
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/paralax.js"></script>
-    <!--<script src="js/jquery.maskedinput.min.js"></script>-->
-    <!--<script src="js/is.mobile.js"></script>-->
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/is.mobile.js"></script>
     <script src="js/script.js"></script>
-    <!--<script src="js/maskedinput.js"></script>-->
+    <script src="js/maskedinput.js"></script>
 </head>
 <body>
 <script >
 //    jQuery(function($){
-//        $("#phone").mask("38(999) 999-9999");
+//        $("#phone").mask("+38(099) 999-9999");
 //    });
 
-function clearVal(val, limit){
+//function clearVal(val, limit){
+//
+//    var newVal = val.replace(/[^\d]+/g, '');
+//
+//    if( newVal == '' ){
+//
+//        return false;
+//    }else{
+//
+//        return newVal.substring(0, limit);
+//
+//    }
+//
+//}
 
-    var newVal = val.replace(/[^\d]+/g, '');
-
-    if( newVal == '' ){
-
-        return false;
-    }else{
-
-        return newVal.substring(0, limit);
-
-    }
-
-}
-
-function getResString(newVal){
-    var res = '';
-    for(var i = 0; i < newVal.length; i++){
-        if( i == 2 ){
-            res='('+res+')'+' ';
-            res += '-';
-            res += newVal.charAt(i);}
-         else if( i == 5 || i == 8 || i==9 ){
-            res += '-';
-
-            res += newVal.charAt(i);
-
-        }else{
-
-            res += newVal.charAt(i);
-
-        }
-
-    }
-
-    return res;
-
-}
+//function getResString(newVal){
+//    var res = '';
+//
+//    for(var i = 0; i < newVal.length; i++){
+////        if(i==0){
+////            res+='+38('+newVal
+////        }
+//        if( i == 2 ){
+////            res='+38'+'(0'+res+')'+' ';
+//            res += '-';
+//            res += newVal.charAt(i);}
+//         else if( i == 5 || i == 8 || i==9 ){
+//            res += '-';
+//
+//            res += newVal.charAt(i);
+//
+//        }else{
+//
+//            res += newVal.charAt(i);
+//
+//        }
+//
+//    }
+//
+//    return res;
+//
+//}
 
 
 
-$(function(){
-
-    $('#phone').on('input', function(){
-
-        var val = $(this).val(),
-
-        limit = 12;
-
-        if( val == '' ) return;
-        var newVal = clearVal(val, limit);
-        if(!newVal){
-
-            $(this).val('');
-
-            return;
-
-        }
-
-        var res = getResString(newVal);
-
-        $(this).val(res);
-
-    });
-
-});
+//$(function(){
+//
+//    $('#phone').on('input', function(){
+//        var st='+38(0';
+//        var val = $(this).val(),
+//
+//        limit = 9;
+//
+//        if( val == '' ) return;
+//        var newVal = clearVal(val, limit);
+//        if(!newVal){
+//
+//            $(this).val('');
+//
+//            return;
+//
+//        }
+//
+//        var res = getResString(newVal);
+//
+//        $(this).val(res);
+//
+//    });
+//
+//});
 </script>
 <header class="header clearfix">
     <div class="wrap_header clearfix">
@@ -585,7 +589,11 @@ $(function(){
                             <div class="img_bg1"></div>
                             <input type="text" class="name_sender" placeholder="Ваше имя" required>
                             <div class="img_bg2"></div>
-                            <input type="text" class="number_phon_sender " placeholder="Телефон" required  title="Формат: 380 96 999 99 99"  id="phone" >
+
+
+                                    <input type="tel" class="number_phon_sender " required pattern="[0-9_-]{10}" title="Формат: (096) 999 99 99" placeholder="Телефон" id="user_phone" />
+
+                           <!-- <input type="text" class="number_phon_sender " placeholder="Телефон"  required  title="Формат: 380 96 999 99 99"  id="phone" >-->
                         </div>
                         <textarea type="text" class="massage" placeholder="Текст сообщения"></textarea>
                         <input type="submit" class="btn_massage disabled" value="Помочь">
