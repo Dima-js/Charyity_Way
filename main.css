@@ -1204,11 +1204,11 @@ margin-top: 30px;
     position: fixed; /* чтобы окно было в видимой зоне в любом месте */
     top: 50%!important;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    /*-webkit-transform: translate(-50%, -50%);*/
+    /*-moz-transform: translate(-50%, -50%);*/
+    /*-ms-transform: translate(-50%, -50%);*/
+    /*-o-transform: translate(-50%, -50%);*/
+    /*transform: translate(-50%, -50%);*/
 
     display: none; /* в обычном состоянии окна не должно быть */
     opacity: 0; /* полностью прозрачно для анимирования */
@@ -1464,11 +1464,11 @@ font-family: ObelixPro;
     position: fixed; /* чтобы окно было в видимой зоне в любом месте */
     top: 50%!important;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    /*-webkit-transform: translate(-50%, -50%);*/
+    /*-moz-transform: translate(-50%, -50%);*/
+    /*-ms-transform: translate(-50%, -50%);*/
+    /*-o-transform: translate(-50%, -50%);*/
+    /*transform: translate(-50%, -50%);*/
     display: none; /* в обычном состоянии окна не должно быть */
     opacity: 0; /* полностью прозрачно для анимирования */
     z-index: 5; /* окно должно быть наиболее большем слое */
@@ -1780,6 +1780,14 @@ font-family: ObelixPro;
 ::-ms-clear{
     display: none;
 }
+#modal_form{
+    margin-left: -337px;
+    margin-top: -275px;
+}
+#modal_form1{
+    margin-left: -420px;
+    margin-top: -275px;
+}
 /*/////////////////////////////////////// media /////////////////////*/
 
 
@@ -1846,7 +1854,16 @@ font-family: ObelixPro;
         padding-left: 40px;
         padding-right: 40px;
     }
-   
+    #modal_form{
+        width: 675px;
+        margin-left: -337px;
+        height: 550px;
+        margin-top: -275px;
+    }
+   #modal_form1{
+       margin-left: -420px;
+       margin-top: -275px;
+   }
 }
 
 
@@ -1881,6 +1898,14 @@ font-family: ObelixPro;
 
     #modal_form1 {
         width: 725px;
+        margin-left: -363px;
+        margin-top: -275px;
+    }
+    #modal_form {
+        margin-left: -337px;
+        width: 675px;
+        margin-top: -275px;
+        height: 550px;
     }
     #opus_tovaru {
         width: 430px;
@@ -2149,6 +2174,8 @@ font-family: ObelixPro;
     #modal_form1 {
         width: 443px;
         height: 550px;
+        margin-left: -222px;
+        margin-top: -275px;
         background-image: url("img/papap1.png");
         background-repeat: no-repeat;
         border-bottom-left-radius: 9px;
@@ -2161,6 +2188,8 @@ font-family: ObelixPro;
         height: 545px;
         border-right: 1px solid #fbba14;
         border-bottom-right-radius: 6px;
+        margin-left: -220px;
+        margin-top: -273px;
     }
     #modal_form #modal_close {
         top: 15px;
@@ -2292,6 +2321,8 @@ font-family: ObelixPro;
     #modal_form1 {
         width: 385px;
         height: 550px;
+        margin-left: -193px;
+        margin-top: -275px;
     }
     .min_wrapper_tovar1 {
         width: 157px;
@@ -2316,6 +2347,9 @@ font-family: ObelixPro;
     }
     #modal_form {
         width: 385px;
+        margin-left: -193px;
+        height: 545px;
+        margin-top: -273px;
     }
     .zakaz {
         font-size: 22px;
@@ -2564,6 +2598,9 @@ font-family: ObelixPro;
     #modal_form1 {
         width: 292px;
         height: 470px;
+        margin-left: -141px;
+        margin-top: -235px;
+
     }
     .line_zakaz:nth-child(1) {
         margin-top: 0;
@@ -2658,6 +2695,8 @@ font-family: ObelixPro;
     #modal_form {
         width: 290px;
         height: 470px;
+        margin-top: -235px;
+        margin-left: -145px;
     }
     .caption1_form1 {
 
