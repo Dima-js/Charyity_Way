@@ -9,9 +9,9 @@
 	$(function() {
 		
     if(!is_mobile()){
-    
+
       if($('#user_phone').exists()){
-        
+
         $('#user_phone').each(function(){
           $(this).mask("+38(099) 999-99-99");
         });
@@ -20,7 +20,7 @@
           .removeAttr('required')
           .removeAttr('pattern')
           .removeAttr('title')
-          //.attr({'placeholder':'(___) ___ __ __'});
+          .attr({'placeholder':'(___) ___ __ __'});
       }
       
       if($('.phone_form').exists()){

@@ -992,6 +992,7 @@ margin-top: 75px;
     font-size: 24px;
     color:#07263d;
     text-decoration: none;
+    display: block;
 }
 .wrap_phon{
     padding-top: 130px;
