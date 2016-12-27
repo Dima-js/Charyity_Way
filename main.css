@@ -977,7 +977,7 @@ margin-top: 75px;
     display: inline-block;
 }
 .wraper_number_phon{
-    display: inline-block;
+    /*display: inline-block;*/
     float: right;
 }
 .number_phon1{

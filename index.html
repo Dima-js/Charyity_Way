@@ -16,10 +16,13 @@
     <script src="js/maskedinput.js"></script>
 </head>
 <body>
+
+
 <script >
     jQuery(function($){
         $("#phone1").mask("+38(099) 999-9999");
     });
+
 
 
 function clearVal(val, limit){
@@ -39,16 +42,20 @@ function clearVal(val, limit){
 
 function getResString(newVal){
     var res = '';
+    var a='+38'.toString();
     for(var i = 0; i < newVal.length; i++){
-        if( i == 2 ){
-            res += '-';
-            res += newVal.charAt(i);}
-         else if( i == 5 || i == 8 || i==9 ){
+        if( i == 3 ){
+                res= "("+res+')';
+                      res += '-';
+                      res += newVal.charAt(i);}
+             else if( i == 6 || i == 8 || i==9 ){
             res += '-';
 
             res += newVal.charAt(i);
 
-        }else{
+        }
+
+        else{
 
             res += newVal.charAt(i);
 
@@ -64,7 +71,7 @@ function getResString(newVal){
 
 
 $(function(){
-
+    var a='+38';
     $('#phone').on('input', function(){
 
         var val = $(this).val(),
@@ -583,14 +590,15 @@ $(function(){
                         <h3 class="caption_email">Напишите нам письмо по любому поводу</h3>
                         <h4 class="text_for_caption">Напишите нам письмо по любому поводу</h4>
                         <div class="wrap_input">
+
                             <div class="img_bg1"></div>
                             <input type="text" class="name_sender" placeholder="Ваше имя" required>
                             <div class="img_bg2"></div>
-                            <input type="tel" class="number_phon_sender " required pattern="[0-9_-]{10}" title="Формат: (096) 999 99 99" placeholder="Телефон" id="user_phone"  />
-
-                            <input type="text" class="number_phon_sender " placeholder="Телефон"  required  title="Формат: 380 96 999 99 99"  id="phone" >
+                            <!--<input type="tel" class="number_phon_sender " required pattern="[0-9_-]{10}" title="Формат: (096) 999 99 99" placeholder="Телефон" id="user_phone"  />-->
                             <input type="text" class="number_phon_sender " placeholder="Телефон"  required  title="Формат: 380 96 999 99 99"  id="phone1" >
-                        </div>
+                            <!--<input type="text" class="number_phon_sender " placeholder="Телефон"  required  title="Формат: 380 96 999 99 99"  id="phone" >-->
+                             </div>
+
                         <textarea type="text" class="massage" placeholder="Текст сообщения"></textarea>
                         <input type="submit" class="btn_massage disabled" value="Помочь">
                     </form>
@@ -627,5 +635,8 @@ $(function(){
     </div>
     </div>
 </div>
+
+
+
 </body>
 </html>
