@@ -63,9 +63,6 @@ $(document).ready(function () {
 });
 
 
-$(document).ready(function() {
-    $('#comments_block').jScrollPane();
-});
 
 
 
